@@ -95,7 +95,7 @@
   // ─── Rules (loaded from GitHub/CDN) ─────────────────────────────────────────
   var RULES_VERSION = "remote (GitHub/LibGuides asset)";
   var RULES = [];
-  var RULES_URL = "https://cdn.jsdelivr.net/gh/saintjakeowitz/Faculty-AI-Toolkit@main/faculty_ai_toolkit_rules_megapack_v0_base_plus_v1_v2.json";
+  var RULES_URL = "https://saintjakeowitz.github.io/Faculty-AI-Toolkit@main/faculty_ai_toolkit_rules_megapack_v0_base_plus_v1_v2.json";
 
   function loadRulesFromUrl(cb){
     cb = cb || function(){};
