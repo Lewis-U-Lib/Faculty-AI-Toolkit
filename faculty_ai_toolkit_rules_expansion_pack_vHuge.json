@@ -1,0 +1,3176 @@
+[
+  {
+    "id": "mega_rule_1",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "evidence",
+        "policy"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "quick",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 22
+  },
+  {
+    "id": "mega_rule_2",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "clinical",
+        "analysis"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "quick",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 27
+  },
+  {
+    "id": "mega_rule_3",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "data",
+        "bias"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "quick",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 47
+  },
+  {
+    "id": "mega_rule_4",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "policy",
+        "visualization"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "quick",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 38
+  },
+  {
+    "id": "mega_rule_5",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "bias",
+        "leadership"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "quick",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 36
+  },
+  {
+    "id": "mega_rule_6",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "grant",
+        "clinical"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "quick",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 45
+  },
+  {
+    "id": "mega_rule_7",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "framework",
+        "visualization"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "assign",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 24
+  },
+  {
+    "id": "mega_rule_8",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "assessment",
+        "grant"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "assign",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 20
+  },
+  {
+    "id": "mega_rule_9",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "curriculum",
+        "methodology"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "assign",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 29
+  },
+  {
+    "id": "mega_rule_10",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "equity",
+        "assessment"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "assign",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 28
+  },
+  {
+    "id": "mega_rule_11",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "theory",
+        "grant"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "assign",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 14
+  },
+  {
+    "id": "mega_rule_12",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "equity",
+        "policy"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "assign",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 16
+  },
+  {
+    "id": "mega_rule_13",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "ethics",
+        "curriculum"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "capstone",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 32
+  },
+  {
+    "id": "mega_rule_14",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "analysis",
+        "leadership"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "capstone",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 32
+  },
+  {
+    "id": "mega_rule_15",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "analysis",
+        "ethics"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "capstone",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 44
+  },
+  {
+    "id": "mega_rule_16",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "leadership",
+        "misinformation"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "capstone",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 29
+  },
+  {
+    "id": "mega_rule_17",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "evidence",
+        "curriculum"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "capstone",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 49
+  },
+  {
+    "id": "mega_rule_18",
+    "when": {
+      "focus": [
+        "teaching"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "grant",
+        "leadership"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Teaching Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "teaching",
+          "capstone",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 30
+  },
+  {
+    "id": "mega_rule_19",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "misinformation",
+        "methodology"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "quick",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 11
+  },
+  {
+    "id": "mega_rule_20",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "equity",
+        "grant"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "quick",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 48
+  },
+  {
+    "id": "mega_rule_21",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "methodology",
+        "evidence"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "quick",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 42
+  },
+  {
+    "id": "mega_rule_22",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "policy",
+        "literature"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "quick",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 43
+  },
+  {
+    "id": "mega_rule_23",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "methodology",
+        "framework"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "quick",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 29
+  },
+  {
+    "id": "mega_rule_24",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "leadership",
+        "assessment"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "quick",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 40
+  },
+  {
+    "id": "mega_rule_25",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "framework",
+        "analysis"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "assign",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 23
+  },
+  {
+    "id": "mega_rule_26",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "curriculum",
+        "ethics"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "assign",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 42
+  },
+  {
+    "id": "mega_rule_27",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "equity",
+        "methodology"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "assign",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 24
+  },
+  {
+    "id": "mega_rule_28",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "visualization",
+        "methodology"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "assign",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 11
+  },
+  {
+    "id": "mega_rule_29",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "leadership",
+        "methodology"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "assign",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 40
+  },
+  {
+    "id": "mega_rule_30",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "literature",
+        "grant"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "assign",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 13
+  },
+  {
+    "id": "mega_rule_31",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "policy",
+        "theory"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "capstone",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 13
+  },
+  {
+    "id": "mega_rule_32",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "framework",
+        "evidence"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "capstone",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 15
+  },
+  {
+    "id": "mega_rule_33",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "literature",
+        "framework"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "capstone",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 32
+  },
+  {
+    "id": "mega_rule_34",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "curriculum",
+        "equity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "capstone",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 50
+  },
+  {
+    "id": "mega_rule_35",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "visualization",
+        "leadership"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "capstone",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 36
+  },
+  {
+    "id": "mega_rule_36",
+    "when": {
+      "focus": [
+        "research"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "methodology",
+        "literature"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Research Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "research",
+          "capstone",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 33
+  },
+  {
+    "id": "mega_rule_37",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "assessment",
+        "grant"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "quick",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 16
+  },
+  {
+    "id": "mega_rule_38",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "curriculum",
+        "misinformation"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "quick",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 17
+  },
+  {
+    "id": "mega_rule_39",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "evidence",
+        "analysis"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "quick",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 18
+  },
+  {
+    "id": "mega_rule_40",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "methodology",
+        "equity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "quick",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 25
+  },
+  {
+    "id": "mega_rule_41",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "framework",
+        "methodology"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "quick",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 34
+  },
+  {
+    "id": "mega_rule_42",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "framework",
+        "methodology"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "quick",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 48
+  },
+  {
+    "id": "mega_rule_43",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "analysis",
+        "data"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "assign",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 17
+  },
+  {
+    "id": "mega_rule_44",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "data",
+        "framework"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "assign",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 50
+  },
+  {
+    "id": "mega_rule_45",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "clinical",
+        "ethics"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "assign",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 23
+  },
+  {
+    "id": "mega_rule_46",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "data",
+        "evidence"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "assign",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 23
+  },
+  {
+    "id": "mega_rule_47",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "policy",
+        "evidence"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "assign",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 33
+  },
+  {
+    "id": "mega_rule_48",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "visualization",
+        "evidence"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "assign",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 22
+  },
+  {
+    "id": "mega_rule_49",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "methodology",
+        "theory"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "capstone",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 30
+  },
+  {
+    "id": "mega_rule_50",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "analysis",
+        "methodology"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "capstone",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 35
+  },
+  {
+    "id": "mega_rule_51",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "assessment",
+        "leadership"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "capstone",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 12
+  },
+  {
+    "id": "mega_rule_52",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "assessment",
+        "bias"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "capstone",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 45
+  },
+  {
+    "id": "mega_rule_53",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "visualization",
+        "leadership"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "capstone",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 34
+  },
+  {
+    "id": "mega_rule_54",
+    "when": {
+      "focus": [
+        "both"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "bias",
+        "data"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Both Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "both",
+          "capstone",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 18
+  },
+  {
+    "id": "mega_rule_55",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "curriculum",
+        "misinformation"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "quick",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 14
+  },
+  {
+    "id": "mega_rule_56",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "theory",
+        "clinical"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "quick",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 50
+  },
+  {
+    "id": "mega_rule_57",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "literature",
+        "bias"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "quick",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 36
+  },
+  {
+    "id": "mega_rule_58",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "theory",
+        "bias"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "quick",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 35
+  },
+  {
+    "id": "mega_rule_59",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "ethics",
+        "grant"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "quick",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 20
+  },
+  {
+    "id": "mega_rule_60",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "evidence",
+        "curriculum"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Quick AI-Supported Project",
+        "deliverable": "Quick deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "quick",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 40
+  },
+  {
+    "id": "mega_rule_61",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "equity",
+        "curriculum"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "assign",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 46
+  },
+  {
+    "id": "mega_rule_62",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "ethics",
+        "curriculum"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "assign",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 22
+  },
+  {
+    "id": "mega_rule_63",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "equity",
+        "data"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "assign",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 28
+  },
+  {
+    "id": "mega_rule_64",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "bias",
+        "evidence"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "assign",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 36
+  },
+  {
+    "id": "mega_rule_65",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "curriculum",
+        "leadership"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "assign",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 13
+  },
+  {
+    "id": "mega_rule_66",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "assessment",
+        "theory"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Assign AI-Supported Project",
+        "deliverable": "Assign deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "assign",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 13
+  },
+  {
+    "id": "mega_rule_67",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "theory",
+        "analysis"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "capstone",
+          "ChatGPT"
+        ]
+      }
+    ],
+    "priority": 40
+  },
+  {
+    "id": "mega_rule_68",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit"
+      ],
+      "topicAny": [
+        "policy",
+        "analysis"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "capstone",
+          "Semantic Scholar"
+        ]
+      }
+    ],
+    "priority": 39
+  },
+  {
+    "id": "mega_rule_69",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM"
+      ],
+      "topicAny": [
+        "misinformation",
+        "policy"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "capstone",
+          "Scite"
+        ]
+      }
+    ],
+    "priority": 48
+  },
+  {
+    "id": "mega_rule_70",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "topicAny": [
+        "policy",
+        "theory"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "capstone",
+          "Julius"
+        ]
+      }
+    ],
+    "priority": 44
+  },
+  {
+    "id": "mega_rule_71",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "topicAny": [
+        "assessment",
+        "analysis"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "capstone",
+          "Midjourney"
+        ]
+      }
+    ],
+    "priority": 27
+  },
+  {
+    "id": "mega_rule_72",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "topicAny": [
+        "policy",
+        "methodology"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program Workflow: Capstone AI-Supported Project",
+        "deliverable": "Capstone deliverable tied to selected tools",
+        "steps": [
+          "Generate initial output using selected tool(s).",
+          "Evaluate accuracy, bias, and disciplinary alignment.",
+          "Revise output using evidence-based criteria.",
+          "Document AI use transparently."
+        ],
+        "tags": [
+          "program",
+          "capstone",
+          "Runway"
+        ]
+      }
+    ],
+    "priority": 15
+  },
+  {
+    "id": "topic_rule_ethics",
+    "when": {
+      "topicAny": [
+        "ethics"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Ethics + AI",
+        "deliverable": "Annotated synthesis on ethics",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "ethics"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_bias",
+    "when": {
+      "topicAny": [
+        "bias"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Bias + AI",
+        "deliverable": "Annotated synthesis on bias",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "bias"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_misinformation",
+    "when": {
+      "topicAny": [
+        "misinformation"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Misinformation + AI",
+        "deliverable": "Annotated synthesis on misinformation",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "misinformation"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_clinical",
+    "when": {
+      "topicAny": [
+        "clinical"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Clinical + AI",
+        "deliverable": "Annotated synthesis on clinical",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "clinical"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_policy",
+    "when": {
+      "topicAny": [
+        "policy"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Policy + AI",
+        "deliverable": "Annotated synthesis on policy",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "policy"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_framework",
+    "when": {
+      "topicAny": [
+        "framework"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Framework + AI",
+        "deliverable": "Annotated synthesis on framework",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "framework"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_assessment",
+    "when": {
+      "topicAny": [
+        "assessment"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Assessment + AI",
+        "deliverable": "Annotated synthesis on assessment",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "assessment"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_grant",
+    "when": {
+      "topicAny": [
+        "grant"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Grant + AI",
+        "deliverable": "Annotated synthesis on grant",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "grant"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_literature",
+    "when": {
+      "topicAny": [
+        "literature"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Literature + AI",
+        "deliverable": "Annotated synthesis on literature",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "literature"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_data",
+    "when": {
+      "topicAny": [
+        "data"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Data + AI",
+        "deliverable": "Annotated synthesis on data",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "data"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_visualization",
+    "when": {
+      "topicAny": [
+        "visualization"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Visualization + AI",
+        "deliverable": "Annotated synthesis on visualization",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "visualization"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_curriculum",
+    "when": {
+      "topicAny": [
+        "curriculum"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Curriculum + AI",
+        "deliverable": "Annotated synthesis on curriculum",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "curriculum"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_equity",
+    "when": {
+      "topicAny": [
+        "equity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Equity + AI",
+        "deliverable": "Annotated synthesis on equity",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "equity"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_leadership",
+    "when": {
+      "topicAny": [
+        "leadership"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Leadership + AI",
+        "deliverable": "Annotated synthesis on leadership",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "leadership"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_analysis",
+    "when": {
+      "topicAny": [
+        "analysis"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Analysis + AI",
+        "deliverable": "Annotated synthesis on analysis",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "analysis"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_methodology",
+    "when": {
+      "topicAny": [
+        "methodology"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Methodology + AI",
+        "deliverable": "Annotated synthesis on methodology",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "methodology"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_evidence",
+    "when": {
+      "topicAny": [
+        "evidence"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Evidence + AI",
+        "deliverable": "Annotated synthesis on evidence",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "evidence"
+        ]
+      }
+    ],
+    "priority": 60
+  },
+  {
+    "id": "topic_rule_theory",
+    "when": {
+      "topicAny": [
+        "theory"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Advanced Inquiry: Theory + AI",
+        "deliverable": "Annotated synthesis on theory",
+        "steps": [
+          "Use AI to surface multiple perspectives.",
+          "Cross-verify with peer-reviewed research.",
+          "Identify tensions or contradictions.",
+          "Produce structured, cited synthesis."
+        ],
+        "tags": [
+          "topic-driven",
+          "theory"
+        ]
+      }
+    ],
+    "priority": 60
+  }
+]
