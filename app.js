@@ -3,7 +3,7 @@
 
   // ==== CONFIG ====
   // Put this JSON next to index.html in your GitHub Pages repo (or change path).
-  var RULES_URL = "./faculty_ai_toolkit_rules_megapack_v2_huge_ux.json";
+  var RULES_URL = "./faculty_ai_toolkit_rules_megapack_v2_1_ultra.json";
   var LS_KEY = "faculty_ai_toolkit_state_v2";
 
   // Tool catalog (same as v1, plus short hover tips)
