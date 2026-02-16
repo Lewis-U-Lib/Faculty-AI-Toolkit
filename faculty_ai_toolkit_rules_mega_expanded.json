@@ -1,0 +1,2401 @@
+[
+  {
+    "id": "teaching_quick_chatgpt_perplexity",
+    "priority": 100,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"],
+        "discovery": ["Perplexity", "Google Scholar"]
+      }
+    },
+    "applications": [
+      {
+        "title": "15-Minute Lecture Prep Sprint",
+        "desc": "Use ChatGPT to outline key concepts, then Perplexity to find 2-3 recent examples or case studies. Create a mini-lecture with current context."
+      },
+      {
+        "title": "Quick Discussion Prompt Generator",
+        "desc": "Ask ChatGPT for 5 discussion prompts on your topic, then use Perplexity to verify each is grounded in recent scholarship or news."
+      },
+      {
+        "title": "Fast Activity Scaffolding",
+        "desc": "Generate a think-pair-share or jigsaw activity structure with ChatGPT, incorporating real-world examples from Perplexity search."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Lecture outline + examples",
+        "text": "Create a 15-minute lecture outline on [TOPIC] for [AUDIENCE]. Include 3 main points, each with a brief explanation and space for a real-world example."
+      },
+      {
+        "label": "Discussion starter",
+        "text": "Generate 5 discussion prompts about [TOPIC] that encourage critical thinking and connect to current events or recent research."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_grammarly",
+    "priority": 95,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"],
+        "litreview": ["Grammarly", "QuillBot"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Assignment Clarity Check",
+        "desc": "Draft assignment instructions in ChatGPT, then run through Grammarly to ensure clear, accessible language for all students."
+      },
+      {
+        "title": "Rubric Refinement",
+        "desc": "Generate rubric criteria with ChatGPT, polish language with Grammarly to eliminate ambiguity and ensure consistent tone."
+      },
+      {
+        "title": "Feedback Template Creation",
+        "desc": "Create personalized feedback templates that maintain warmth and clarity, vetted through both tools for tone and accessibility."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Clear assignment draft",
+        "text": "Write assignment instructions for [TASK] aimed at [AUDIENCE]. Use clear, direct language. Include: purpose, steps, deliverable, and evaluation criteria."
+      },
+      {
+        "label": "Rubric criteria",
+        "text": "Create a 4-level rubric for [ASSIGNMENT] with criteria for: understanding, analysis, evidence use, and communication. Make descriptors specific and observable."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_perplexity_canva",
+    "priority": 90,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"],
+        "discovery": ["Perplexity"],
+        "data": ["Canva", "PowerPoint"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Multi-Week Module Design",
+        "desc": "Use ChatGPT for learning objectives and activity sequence, Perplexity for current research/examples, Canva for visual materials (infographics, handouts, slides)."
+      },
+      {
+        "title": "Scaffolded Research Assignment",
+        "desc": "Design a stepped assignment where students use Perplexity for preliminary research, analyze findings, then present with Canva visuals."
+      },
+      {
+        "title": "Flipped Classroom Content Package",
+        "desc": "Create pre-class materials (ChatGPT scripts, Perplexity-sourced examples, Canva video slides) and in-class active learning activities."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Module blueprint",
+        "text": "Design a 3-week module on [TOPIC] for [AUDIENCE]. Include: weekly learning objectives, key concepts, formative assessments, and one summative project."
+      },
+      {
+        "label": "Visual content plan",
+        "text": "List 5 visual materials needed for [MODULE]: infographics, diagrams, or slide decks. For each, specify: purpose, key information, and audience need."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_notebooklm_excel",
+    "priority": 88,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "litreview": ["NotebookLM", "Semantic Scholar"],
+        "data": ["Excel", "Google Sheets"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Literature-Based Assignment Design",
+        "desc": "Upload key readings to NotebookLM, extract themes with ChatGPT, create rubric scoring spreadsheet in Excel for consistent grading."
+      },
+      {
+        "title": "Data Literacy Module",
+        "desc": "Design assignments where students analyze datasets (Excel), synthesize sources (NotebookLM), and write data-driven arguments (ChatGPT assistance)."
+      },
+      {
+        "title": "Cumulative Knowledge Tracking",
+        "desc": "Build a semester-long learning journal assignment with NotebookLM for synthesis, Excel for tracking student progress across units."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Source synthesis task",
+        "text": "Create an assignment where students read [N] sources on [TOPIC], identify patterns using NotebookLM, then write a synthesis. Include evaluation criteria."
+      },
+      {
+        "label": "Data assignment scaffold",
+        "text": "Design a 3-part data analysis assignment: (1) clean/organize data in Excel, (2) identify trends, (3) write findings. For [AUDIENCE] level."
+      }
+    ]
+  },
+  {
+    "id": "research_quick_perplexity_chatgpt",
+    "priority": 95,
+    "when": {
+      "focus": ["research"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"],
+        "discovery": ["Perplexity", "Google Scholar"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Fast Literature Scan",
+        "desc": "Use Perplexity to identify 5-7 recent key papers on your research question, then ChatGPT to draft synthesis notes or gap analysis."
+      },
+      {
+        "title": "Conference Abstract Draft",
+        "desc": "Outline your research contribution with ChatGPT, verify claims with Perplexity searches, polish to 250 words."
+      },
+      {
+        "title": "Quick Grant Idea Test",
+        "desc": "Describe your research to ChatGPT for framing help, use Perplexity to find similar funded projects and differentiate your approach."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Lit scan synthesis",
+        "text": "I'm researching [TOPIC]. Summarize the main debates, key findings, and methodological approaches in recent work (last 3 years). Identify gaps."
+      },
+      {
+        "label": "Abstract structure",
+        "text": "Help me draft a 250-word conference abstract for [RESEARCH]. Include: problem, method, key finding, significance. Use active voice."
+      }
+    ]
+  },
+  {
+    "id": "research_assign_chatgpt_zotero_scrivener",
+    "priority": 92,
+    "when": {
+      "focus": ["research"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"],
+        "litreview": ["Zotero", "Mendeley"],
+        "data": ["Scrivener", "Notion"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Systematic Literature Review",
+        "desc": "Organize sources in Zotero with tags/collections, use ChatGPT to draft synthesis sections, compile in Scrivener for chapter/article structure."
+      },
+      {
+        "title": "Multi-Chapter Writing Pipeline",
+        "desc": "Set up Scrivener project structure, maintain Zotero library, use ChatGPT for outlining and draft polishing chapter by chapter."
+      },
+      {
+        "title": "Grant Proposal Development",
+        "desc": "Build proposal sections in Scrivener, manage all citations in Zotero, use ChatGPT for broader impacts and project timeline drafting."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Chapter outline from sources",
+        "text": "Based on these [N] sources in my Zotero library on [TOPIC], suggest a logical chapter structure and key arguments for each section."
+      },
+      {
+        "label": "Literature synthesis draft",
+        "text": "I have [N] papers on [THEME]. Draft a 800-word literature review section highlighting: main arguments, methods, findings, and gaps."
+      }
+    ]
+  },
+  {
+    "id": "research_capstone_chatgpt_nvivo_tableau",
+    "priority": 85,
+    "when": {
+      "focus": ["research"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "litreview": ["NVivo", "Atlas.ti"],
+        "data": ["Tableau", "R Studio"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Mixed Methods Dissertation",
+        "desc": "Code qualitative data in NVivo, visualize patterns in Tableau, use ChatGPT to draft methods and findings sections with integrated analysis."
+      },
+      {
+        "title": "Multi-Year Data Analysis Project",
+        "desc": "Analyze longitudinal data in Tableau, maintain qualitative coding in NVivo, synthesize findings with ChatGPT assistance for publication."
+      },
+      {
+        "title": "Multi-Site Research Study",
+        "desc": "Coordinate data across sites with Tableau dashboards, code interviews in NVivo, draft comprehensive reports with ChatGPT scaffolding."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Mixed methods integration",
+        "text": "I have qualitative codes from NVivo and quantitative trends from Tableau on [TOPIC]. Help me write a findings section that integrates both datasets meaningfully."
+      },
+      {
+        "label": "Methods section draft",
+        "text": "Draft a methods section for a study using: qualitative interviews (NVivo analysis) and survey data (Tableau visualization). Explain integration rationale."
+      }
+    ]
+  },
+  {
+    "id": "both_quick_chatgpt_midjourney",
+    "priority": 90,
+    "when": {
+      "focus": ["both"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"],
+        "genai_images": ["Midjourney", "DALL-E"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Visual Concept Explanation",
+        "desc": "Generate teaching visuals (diagrams, metaphors) with Midjourney to explain complex research concepts to students or public audiences."
+      },
+      {
+        "title": "Conference Poster Graphics",
+        "desc": "Use ChatGPT to outline poster content, create custom graphics with Midjourney for visual impact and clarity."
+      },
+      {
+        "title": "Social Media Research Dissemination",
+        "desc": "Draft accessible summaries with ChatGPT, create engaging visual summaries with Midjourney for X/LinkedIn sharing."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Visual metaphor prompt",
+        "text": "I need a visual metaphor for [CONCEPT] that [AUDIENCE] will understand. Suggest 3 Midjourney prompt ideas that are clear and not overly abstract."
+      },
+      {
+        "label": "Poster visual elements",
+        "text": "My research poster is about [TOPIC]. Suggest 3 types of custom graphics (not charts) I could create with Midjourney to enhance understanding."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_perplexity_elevenlabs",
+    "priority": 87,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "discovery": ["Perplexity"],
+        "genai_audio": ["ElevenLabs", "Descript"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Accessible Audio Content Creation",
+        "desc": "Write lecture scripts with ChatGPT (based on Perplexity research), convert to high-quality audio with ElevenLabs for students who prefer listening."
+      },
+      {
+        "title": "Podcast-Style Learning Modules",
+        "desc": "Create conversational learning content: research with Perplexity, script with ChatGPT, produce with ElevenLabs for engaging asynchronous modules."
+      },
+      {
+        "title": "Multilingual Course Materials",
+        "desc": "Develop content in English (ChatGPT + Perplexity), then create audio versions in multiple languages with ElevenLabs for international students."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Audio lecture script",
+        "text": "Write a 10-minute audio lecture script on [TOPIC] for [AUDIENCE]. Use conversational tone, include 2 examples, and natural transitions."
+      },
+      {
+        "label": "Podcast learning module",
+        "text": "Create a podcast-style learning module script (15 min) about [TOPIC]. Include: intro hook, 3 key concepts with examples, and reflection prompt."
+      }
+    ]
+  },
+  {
+    "id": "research_capstone_chatgpt_runway_descript",
+    "priority": 82,
+    "when": {
+      "focus": ["research"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "genai_video": ["Runway", "Synthesia"],
+        "genai_audio": ["ElevenLabs", "Descript"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Research Documentary Production",
+        "desc": "Script research story with ChatGPT, create visual sequences with Runway, narrate with ElevenLabs for comprehensive research communication."
+      },
+      {
+        "title": "Grant Proposal Video Supplement",
+        "desc": "Develop compelling grant video: ChatGPT for script, Runway for visualizations, ElevenLabs for professional narration."
+      },
+      {
+        "title": "Public Scholarship Series",
+        "desc": "Create multi-part video series explaining research to public audiences using all three tools for professional production quality."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Research video script",
+        "text": "Write a 3-minute video script explaining [RESEARCH] for general audiences. Include: why it matters, what you found, what's next. Use clear language."
+      },
+      {
+        "label": "Grant video narrative",
+        "text": "Create a 90-second grant proposal video script emphasizing broader impacts of [RESEARCH]. Balance technical accuracy with accessibility."
+      }
+    ]
+  },
+  {
+    "id": "program_assign_chatgpt_tableau_notion",
+    "priority": 88,
+    "when": {
+      "focus": ["program"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"],
+        "data": ["Tableau", "Excel"],
+        "litreview": ["Notion", "Monday.com"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Program Assessment Dashboard",
+        "desc": "Organize assessment data in Notion, visualize outcomes in Tableau, use ChatGPT to draft narrative reports linking data to improvements."
+      },
+      {
+        "title": "Accreditation Documentation System",
+        "desc": "Build evidence repository in Notion, create data visualizations in Tableau, generate report sections with ChatGPT for consistency."
+      },
+      {
+        "title": "Department Strategic Planning",
+        "desc": "Track initiatives in Notion, visualize progress/metrics in Tableau, draft communications and reports with ChatGPT."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Assessment report section",
+        "text": "Based on this program data [METRICS], write an assessment report section covering: findings, implications, and action steps. Use data storytelling approach."
+      },
+      {
+        "label": "Dashboard narrative",
+        "text": "I have a Tableau dashboard showing [METRICS]. Write accompanying text that explains what the data shows and why it matters for program improvement."
+      }
+    ]
+  },
+  {
+    "id": "teaching_capstone_claude_notebooklm_canva_runway",
+    "priority": 80,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "litreview": ["NotebookLM"],
+        "data": ["Canva"],
+        "genai_video": ["Runway", "Synthesia"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Comprehensive Course Redesign with Media",
+        "desc": "Upload syllabus/materials to NotebookLM for analysis, use Claude for activity redesign, create visual materials in Canva, produce intro videos with Runway."
+      },
+      {
+        "title": "OER Textbook Alternative",
+        "desc": "Build multi-week learning modules combining NotebookLM-sourced content, Claude-generated activities, Canva visuals, and Runway video explanations."
+      },
+      {
+        "title": "Hybrid Course Transformation",
+        "desc": "Convert traditional course to hybrid: NotebookLM for content curation, Claude for activity design, Canva for asynchronous materials, Runway for video content."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Course redesign analysis",
+        "text": "Review my current course materials in NotebookLM. Suggest 5 specific improvements for: engagement, accessibility, active learning, and assessment alignment."
+      },
+      {
+        "label": "Module visual + video plan",
+        "text": "For a module on [TOPIC], list: (1) 3 Canva visual materials needed, (2) 2 short Runway video concepts, (3) how they support learning objectives."
+      }
+    ]
+  },
+  {
+    "id": "both_assign_chatgpt_perplexity_grammarly_midjourney",
+    "priority": 85,
+    "when": {
+      "focus": ["both"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "discovery": ["Perplexity"],
+        "litreview": ["Grammarly"],
+        "genai_images": ["Midjourney", "DALL-E"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Teaching Module + Research Article Pipeline",
+        "desc": "Research with Perplexity, draft teaching materials and article simultaneously with ChatGPT, polish with Grammarly, create figures with Midjourney."
+      },
+      {
+        "title": "SOTL Study Development",
+        "desc": "Design classroom intervention (ChatGPT), find literature (Perplexity), draft study for publication (Grammarly), create visual abstract (Midjourney)."
+      },
+      {
+        "title": "Public-Facing Research Communication",
+        "desc": "Transform research into teaching case study: research with Perplexity, draft with ChatGPT, polish with Grammarly, illustrate with Midjourney."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Dual-purpose outline",
+        "text": "Create an outline for [TOPIC] that works both as a teaching module and a research article section. Show: learning objectives AND research questions."
+      },
+      {
+        "label": "Visual abstract design",
+        "text": "My paper is about [RESEARCH]. Suggest a Midjourney prompt for a visual abstract that captures: research question, method, and key finding in one image."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_claude_googledrive",
+    "priority": 93,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "data": ["Google Drive", "Dropbox"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Fast Syllabus Revision",
+        "desc": "Upload current syllabus to Claude, get specific revision suggestions for clarity, equity, and AI policy, save updated version to Google Drive."
+      },
+      {
+        "title": "Assignment Bank Organization",
+        "desc": "Upload old assignments to Claude for categorization and improvement suggestions, organize refined versions in Google Drive folders."
+      },
+      {
+        "title": "Quick Feedback Template Creation",
+        "desc": "Share sample student work with Claude to generate customizable feedback templates, store in Google Drive for consistent reuse."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Syllabus improvement",
+        "text": "Review this syllabus for [COURSE]. Suggest specific improvements for: learning outcomes clarity, assignment scaffolding, and inclusive language."
+      },
+      {
+        "label": "Assignment revision",
+        "text": "Analyze this assignment for [TOPIC]. Suggest ways to make it: more AI-resilient, better scaffolded, and aligned with [LEARNING OUTCOME]."
+      }
+    ]
+  },
+  {
+    "id": "research_assign_claude_zotero_rStudio",
+    "priority": 89,
+    "when": {
+      "focus": ["research"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "litreview": ["Zotero", "Mendeley"],
+        "data": ["R Studio", "Python"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Meta-Analysis Project",
+        "desc": "Organize papers in Zotero, use Claude to extract effect sizes and study details, analyze in R Studio with statistical summaries."
+      },
+      {
+        "title": "Replication Study Design",
+        "desc": "Import original study to Claude for analysis, manage sources in Zotero, code replication in R Studio with detailed documentation."
+      },
+      {
+        "title": "Systematic Review with Coding",
+        "desc": "Tag articles in Zotero by themes, use Claude to help develop coding scheme, analyze coded data patterns in R Studio."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Coding scheme development",
+        "text": "Based on these [N] papers on [TOPIC], suggest a coding scheme for systematic review. Include: categories, definitions, and inclusion/exclusion criteria."
+      },
+      {
+        "label": "Meta-analysis data extraction",
+        "text": "Help me create a data extraction form for meta-analysis on [TOPIC]. Include: study details, sample characteristics, measures, and effect sizes."
+      }
+    ]
+  },
+  {
+    "id": "both_capstone_chatgpt_notebooklm_tableau_midjourney_elevenlabs",
+    "priority": 75,
+    "when": {
+      "focus": ["both"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "litreview": ["NotebookLM"],
+        "data": ["Tableau"],
+        "genai_images": ["Midjourney"],
+        "genai_audio": ["ElevenLabs"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Complete Digital Course + Research Dissemination",
+        "desc": "Build full online course while developing research outputs: NotebookLM for content, ChatGPT for drafting, Tableau for data teaching/analysis, Midjourney for visuals, ElevenLabs for audio content."
+      },
+      {
+        "title": "Multi-Modal Public Scholarship Project",
+        "desc": "Transform research into accessible course materials: analyze with NotebookLM, draft with ChatGPT, visualize data with Tableau, create graphics with Midjourney, produce audio with ElevenLabs."
+      },
+      {
+        "title": "Comprehensive Teaching Portfolio + Research Profile",
+        "desc": "Document teaching and research in integrated format: organize with NotebookLM, write with ChatGPT, showcase data with Tableau, design with Midjourney, narrate with ElevenLabs."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Integrated module plan",
+        "text": "Design a course module on [RESEARCH TOPIC] that includes: learning objectives, research-based content (NotebookLM), data activity (Tableau), visual aids (Midjourney), and audio lecture (ElevenLabs)."
+      },
+      {
+        "label": "Public scholarship outline",
+        "text": "Create an outline for presenting [RESEARCH] to [AUDIENCE]. Include: narrative arc, data visualizations needed, supporting images, and audio/video segments."
+      }
+    ]
+  },
+  {
+    "id": "program_capstone_claude_notion_tableau_chatgpt",
+    "priority": 78,
+    "when": {
+      "focus": ["program"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["Claude", "ChatGPT"],
+        "litreview": ["Notion", "Airtable"],
+        "data": ["Tableau", "Power BI"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Complete Program Review",
+        "desc": "Build comprehensive review: organize evidence in Notion, analyze outcomes in Tableau, draft narrative with Claude/ChatGPT, integrate for accreditation."
+      },
+      {
+        "title": "Department Strategic Plan Development",
+        "desc": "Coordinate multi-year planning: track in Notion, visualize metrics in Tableau, draft goals and assessments with AI assistance."
+      },
+      {
+        "title": "Multi-Program Assessment System",
+        "desc": "Create unified assessment infrastructure: centralize in Notion, dashboard in Tableau, generate reports with Claude for multiple programs simultaneously."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Program review synthesis",
+        "text": "Based on assessment data in Tableau and evidence in Notion, write an executive summary covering: strengths, challenges, improvements, and strategic priorities."
+      },
+      {
+        "label": "Strategic plan framework",
+        "text": "Create a 3-year strategic plan outline for [PROGRAM/DEPARTMENT]. Include: goals, metrics, initiatives, assessment methods, and resource needs."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_perplexity_canva",
+    "priority": 91,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "discovery": ["Perplexity", "Google Scholar"],
+        "data": ["Canva", "PowerPoint"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Current Events Integration",
+        "desc": "Find breaking news or recent studies with Perplexity, create quick infographic or slide with Canva to bring into next class."
+      },
+      {
+        "title": "Fast Visual Handout",
+        "desc": "Research key concepts with Perplexity, design one-page visual summary in Canva for student reference or exam prep."
+      },
+      {
+        "title": "Timely Example Library",
+        "desc": "Build collection of current examples (Perplexity searches), create standardized visual templates (Canva) for consistent presentation."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Current example search",
+        "text": "Find 3 recent (last 6 months) real-world examples of [CONCEPT] from news or research. For each, provide: what happened, why it matters, how it illustrates the concept."
+      },
+      {
+        "label": "Visual summary design",
+        "text": "I need to explain [CONCEPT] visually in one page. Suggest a layout with: definition, key features, visual metaphor, and example. Optimized for Canva."
+      }
+    ]
+  },
+  {
+    "id": "research_quick_chatgpt_scholarai",
+    "priority": 94,
+    "when": {
+      "focus": ["research"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"],
+        "discovery": ["Scholar AI", "Consensus"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Quick Research Question Framing",
+        "desc": "Use Scholar AI to find similar studies, ChatGPT to help refine your research question based on gaps and opportunities."
+      },
+      {
+        "title": "Methods Section Scaffolding",
+        "desc": "Find methodologically similar papers with Scholar AI, use ChatGPT to draft methods section adapted to your study."
+      },
+      {
+        "title": "Fast Peer Review Prep",
+        "desc": "Search recent work on your topic with Scholar AI, use ChatGPT to anticipate reviewer questions and prepare responses."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Research question refinement",
+        "text": "My initial research question is [QUESTION]. Based on recent studies, help me refine it to be: more specific, theoretically grounded, and methodologically feasible."
+      },
+      {
+        "label": "Methods adaptation",
+        "text": "I want to study [TOPIC] using [METHOD]. Based on how others have done this, suggest: data collection approach, analysis plan, and potential challenges."
+      }
+    ]
+  },
+  {
+    "id": "both_assign_claude_perplexity_canva_elevenlabs",
+    "priority": 83,
+    "when": {
+      "focus": ["both"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "discovery": ["Perplexity"],
+        "data": ["Canva"],
+        "genai_audio": ["ElevenLabs", "Descript"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Accessible Research-Teaching Materials",
+        "desc": "Research with Perplexity, design content with Claude, create visuals in Canva, produce audio versions with ElevenLabs for multiple accessibility formats."
+      },
+      {
+        "title": "Multi-Format Conference Presentation",
+        "desc": "Develop presentation: research with Perplexity, draft script with Claude, design slides in Canva, create audio version with ElevenLabs."
+      },
+      {
+        "title": "Blended Learning Module Creation",
+        "desc": "Build module combining text (Claude), current research (Perplexity), visuals (Canva), and narration (ElevenLabs) for diverse learning preferences."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Multi-format content plan",
+        "text": "For a presentation/module on [TOPIC]: outline key points, suggest visual supports for each, and identify which sections benefit from audio narration."
+      },
+      {
+        "label": "Accessible design checklist",
+        "text": "I'm creating materials on [TOPIC]. What should I include to ensure they're accessible via: text, visual, and audio formats? Provide specific guidance."
+      }
+    ]
+  },
+  {
+    "id": "teaching_capstone_chatgpt_googledrive_canva_synthesia",
+    "priority": 77,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "data": ["Google Drive", "Canva"],
+        "genai_video": ["Synthesia", "HeyGen"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Complete Online Course Build",
+        "desc": "Develop full course: organize in Google Drive, generate content with ChatGPT, design materials in Canva, create lecture videos with Synthesia."
+      },
+      {
+        "title": "Flipped Classroom Video Library",
+        "desc": "Build comprehensive pre-class video collection: script with ChatGPT, visual aids in Canva, AI presenter via Synthesia, organize in Google Drive."
+      },
+      {
+        "title": "Multilingual Course Materials",
+        "desc": "Create course in multiple languages: draft with ChatGPT, design once in Canva, generate language-specific videos with Synthesia, manage in Google Drive."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Video lecture series plan",
+        "text": "Plan a 10-video lecture series on [TOPIC] for [AUDIENCE]. For each video: title, key concepts (3-5), length (5-15 min), and visual supports needed."
+      },
+      {
+        "label": "Course module structure",
+        "text": "Design a course module including: learning objectives, pre-class videos (Synthesia), in-class activities (ChatGPT), and assessments. Organize file structure."
+      }
+    ]
+  },
+  {
+    "id": "research_capstone_claude_scrivener_r_midjourney",
+    "priority": 76,
+    "when": {
+      "focus": ["research"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "litreview": ["Scrivener", "Ulysses"],
+        "data": ["R Studio", "Python"],
+        "genai_images": ["Midjourney", "DALL-E"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Book Manuscript Development",
+        "desc": "Write in Scrivener with Claude assistance, create data visualizations in R, design custom figures with Midjourney for publication-ready manuscript."
+      },
+      {
+        "title": "Dissertation with Enhanced Visuals",
+        "desc": "Structure dissertation in Scrivener, analyze data in R with Claude help, create conceptual diagrams and figures with Midjourney."
+      },
+      {
+        "title": "Multi-Article Research Program",
+        "desc": "Manage multiple papers in Scrivener, shared R analysis code, consistent visual identity via Midjourney for figure creation across publications."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Book chapter structure",
+        "text": "Help me outline a book chapter on [TOPIC]. Include: argument flow, subsections, where data visualizations fit, and where conceptual figures would help."
+      },
+      {
+        "label": "Figure conceptualization",
+        "text": "I need figures to explain [CONCEPT/FINDING]. Suggest: (1) what type (conceptual diagram, data viz, process flow), (2) key elements, (3) Midjourney approach."
+      }
+    ]
+  },
+  {
+    "id": "program_assign_chatgpt_airtable_powerbi",
+    "priority": 86,
+    "when": {
+      "focus": ["program"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "litreview": ["Airtable", "Monday.com"],
+        "data": ["Power BI", "Tableau"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Program Data Management System",
+        "desc": "Build assessment database in Airtable, create interactive dashboards in Power BI, generate reports and action plans with ChatGPT."
+      },
+      {
+        "title": "Multi-Year Outcomes Tracking",
+        "desc": "Structure longitudinal data in Airtable, visualize trends in Power BI, use ChatGPT for narrative reports showing progress over time."
+      },
+      {
+        "title": "Department Planning Dashboard",
+        "desc": "Centralize initiatives and metrics in Airtable, build leadership dashboard in Power BI, draft communications with ChatGPT based on data."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Database structure design",
+        "text": "Design an Airtable base for tracking [PROGRAM] assessment with tables for: learning outcomes, assessment methods, data collection, and action items."
+      },
+      {
+        "label": "Dashboard narrative",
+        "text": "Based on this Power BI dashboard showing [METRICS], write a report section that: highlights trends, interprets data, and suggests next steps."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_notebooklm_excel_chatgpt",
+    "priority": 84,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "litreview": ["NotebookLM", "Semantic Scholar"],
+        "data": ["Excel", "Google Sheets"],
+        "productivity": ["ChatGPT", "Claude"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Evidence-Based Activity Design",
+        "desc": "Upload pedagogy research to NotebookLM, extract teaching strategies, design implementation in ChatGPT, track effectiveness in Excel."
+      },
+      {
+        "title": "Reading-Integrated Assignments",
+        "desc": "Load course readings in NotebookLM, generate discussion questions with ChatGPT based on key themes, create grading rubric in Excel."
+      },
+      {
+        "title": "Curriculum Mapping Project",
+        "desc": "Analyze course content with NotebookLM, map to learning outcomes in Excel, use ChatGPT to identify gaps and suggest improvements."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Pedagogy-informed activity",
+        "text": "Based on active learning research, design an activity for [TOPIC] that includes: clear learning objective, student task, assessment, and how it builds on readings."
+      },
+      {
+        "label": "Curriculum alignment check",
+        "text": "Review this course outline and these learning outcomes. Identify: well-aligned components, gaps, redundancies, and suggest specific improvements."
+      }
+    ]
+  },
+  {
+    "id": "both_quick_chatgpt_dalle",
+    "priority": 92,
+    "when": {
+      "focus": ["both"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "genai_images": ["DALL-E", "Midjourney"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Quick Visual Examples",
+        "desc": "Generate images with DALL-E to illustrate abstract concepts in teaching or create visual abstracts for research presentations."
+      },
+      {
+        "title": "Social Media Content",
+        "desc": "Create eye-catching graphics with DALL-E to promote courses, research, or academic events. Draft captions with ChatGPT."
+      },
+      {
+        "title": "Presentation Enhancement",
+        "desc": "Add custom visuals to slides: use ChatGPT to refine concept, generate image with DALL-E, quickly improve presentation impact."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Concept visualization",
+        "text": "I need to visually explain [CONCEPT] to [AUDIENCE]. Suggest a DALL-E prompt that: accurately represents the idea, is clear not abstract, and aids understanding."
+      },
+      {
+        "label": "Social media graphic",
+        "text": "Create a DALL-E prompt for an image promoting [COURSE/RESEARCH/EVENT]. Style: professional but engaging, clear text space, visually appealing."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_claude_canva_grammarly",
+    "priority": 89,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "data": ["Canva"],
+        "litreview": ["Grammarly", "QuillBot"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Polished Handout Creation",
+        "desc": "Draft content with Claude, design in Canva, polish text with Grammarly for professional, accessible student handouts."
+      },
+      {
+        "title": "Quick Infographic with Clear Text",
+        "desc": "Generate key points with Claude, layout in Canva, ensure clarity with Grammarly for effective visual communication."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Handout content",
+        "text": "Create content for a one-page handout on [TOPIC] for [AUDIENCE]. Include: key definition, 3 main points, example, and takeaway."
+      }
+    ]
+  },
+  {
+    "id": "research_assign_chatgpt_nvivo_excel",
+    "priority": 87,
+    "when": {
+      "focus": ["research"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "litreview": ["NVivo", "Atlas.ti"],
+        "data": ["Excel", "Google Sheets"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Qualitative Coding Framework",
+        "desc": "Develop initial codes with ChatGPT, apply in NVivo, export code frequencies to Excel for mixed methods integration."
+      },
+      {
+        "title": "Interview Analysis Pipeline",
+        "desc": "Create coding manual with ChatGPT, code transcripts in NVivo, summarize patterns in Excel for presentation."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Coding manual draft",
+        "text": "Create a coding manual for analyzing [DATA TYPE] about [TOPIC]. Include: code definitions, inclusion criteria, examples, and decision rules."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_claude_googledrive_midjourney",
+    "priority": 84,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "data": ["Google Drive", "Dropbox"],
+        "genai_images": ["Midjourney", "DALL-E"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Visual Course Materials Library",
+        "desc": "Generate teaching content with Claude, create custom graphics with Midjourney, organize in Google Drive for easy sharing."
+      },
+      {
+        "title": "Illustrated Assignment Sequence",
+        "desc": "Design scaffolded assignments with Claude, create visual guides with Midjourney, store versions in Google Drive."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Visual assignment guide",
+        "text": "Create assignment instructions for [TASK] that include visual elements. Specify: what images would help (process diagrams, examples, etc.)."
+      }
+    ]
+  },
+  {
+    "id": "research_quick_claude_consensus",
+    "priority": 96,
+    "when": {
+      "focus": ["research"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "discovery": ["Consensus", "Scholar AI"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Evidence-Based Claim Verification",
+        "desc": "Use Consensus to find research consensus on claims, Claude to synthesize findings and identify knowledge gaps."
+      },
+      {
+        "title": "Research Question Validation",
+        "desc": "Check if your question has been addressed with Consensus, use Claude to refine based on existing evidence."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Evidence synthesis",
+        "text": "Based on consensus in research about [TOPIC], summarize: what we know, what's debated, what's unknown. Include confidence levels."
+      }
+    ]
+  },
+  {
+    "id": "both_capstone_chatgpt_scrivener_tableau_runway_elevenlabs",
+    "priority": 72,
+    "when": {
+      "focus": ["both"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "litreview": ["Scrivener"],
+        "data": ["Tableau"],
+        "genai_video": ["Runway"],
+        "genai_audio": ["ElevenLabs"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Multi-Media Dissertation/Course Package",
+        "desc": "Write in Scrivener with ChatGPT help, create data visualizations in Tableau, produce explanatory videos with Runway and ElevenLabs narration."
+      },
+      {
+        "title": "Book + Online Course Bundle",
+        "desc": "Develop manuscript in Scrivener, design data-driven lessons with Tableau, create supplementary video content with Runway/ElevenLabs."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Multi-format project plan",
+        "text": "Outline a project on [TOPIC] that includes: written text (Scrivener), data visualizations (Tableau), and video explainers. Show how formats complement each other."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_googledocs",
+    "priority": 94,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "data": ["Google Docs", "Google Drive"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Collaborative Assignment Development",
+        "desc": "Draft assignment with ChatGPT, share in Google Docs for colleague feedback and student previewing."
+      },
+      {
+        "title": "Fast Lesson Plan",
+        "desc": "Generate lesson structure with ChatGPT, document in Google Docs for easy access during class."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Collaborative assignment",
+        "text": "Create an assignment on [TOPIC] for [AUDIENCE] that I can share with colleagues for feedback. Include: purpose, instructions, rubric, and revision notes section."
+      }
+    ]
+  },
+  {
+    "id": "program_quick_chatgpt_notion",
+    "priority": 91,
+    "when": {
+      "focus": ["program"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "litreview": ["Notion", "Airtable"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Quick Meeting Agenda + Notes",
+        "desc": "Generate agenda with ChatGPT, organize in Notion with action items tracking for program meetings."
+      },
+      {
+        "title": "Policy Documentation",
+        "desc": "Draft policy language with ChatGPT, structure in Notion for version control and team access."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Meeting agenda",
+        "text": "Create an agenda for [MEETING TYPE] about [TOPIC]. Include: objectives, time allocations, discussion points, and decision items."
+      }
+    ]
+  },
+  {
+    "id": "research_capstone_chatgpt_python_jupyter",
+    "priority": 79,
+    "when": {
+      "focus": ["research"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "data": ["Python", "Jupyter"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Computational Research Workflow",
+        "desc": "Use ChatGPT to help write Python code, document analysis in Jupyter notebooks for transparent, reproducible research."
+      },
+      {
+        "title": "Data Science Project Documentation",
+        "desc": "Develop analysis pipeline in Jupyter with ChatGPT assistance, create narrative explaining methods and results."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Analysis code help",
+        "text": "Help me write Python code to [ANALYSIS TASK] using [DATA TYPE]. Include: data loading, processing, analysis, and visualization. Add comments."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_perplexity_notebooklm_canva",
+    "priority": 86,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "discovery": ["Perplexity"],
+        "litreview": ["NotebookLM"],
+        "data": ["Canva"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Research-Informed Teaching Materials",
+        "desc": "Find current research with Perplexity, upload to NotebookLM for synthesis, create visual teaching materials in Canva."
+      },
+      {
+        "title": "Evidence-Based Activity Design",
+        "desc": "Research best practices with Perplexity, organize in NotebookLM, design activity materials in Canva."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Research-to-teaching",
+        "text": "Based on recent research about teaching [TOPIC], design an activity for [AUDIENCE]. Include: rationale, instructions, and visual supports."
+      }
+    ]
+  },
+  {
+    "id": "both_assign_claude_zotero_canva_dalle",
+    "priority": 81,
+    "when": {
+      "focus": ["both"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "litreview": ["Zotero"],
+        "data": ["Canva"],
+        "genai_images": ["DALL-E"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Annotated Bibliography with Visuals",
+        "desc": "Manage sources in Zotero, write annotations with Claude, create visual summary in Canva with DALL-E graphics."
+      },
+      {
+        "title": "Literature Review Poster",
+        "desc": "Organize papers in Zotero, synthesize with Claude, design conference poster in Canva with DALL-E illustrations."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Visual lit review",
+        "text": "Based on [N] sources on [TOPIC], create a visual literature review structure showing: themes, relationships, gaps. Suggest DALL-E graphics."
+      }
+    ]
+  },
+  {
+    "id": "teaching_capstone_claude_notebooklm_googledrive_synthesia_midjourney",
+    "priority": 74,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "litreview": ["NotebookLM"],
+        "data": ["Google Drive"],
+        "genai_video": ["Synthesia"],
+        "genai_images": ["Midjourney"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Complete Online Course Production",
+        "desc": "Develop course content with NotebookLM/Claude, create custom graphics with Midjourney, produce videos with Synthesia, organize in Google Drive."
+      },
+      {
+        "title": "Hybrid Course Transformation",
+        "desc": "Convert traditional course using all tools: content development, visual design, video production, and centralized file management."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Course production plan",
+        "text": "Plan production for [COURSE] including: video lectures (Synthesia scripts), custom graphics (Midjourney prompts), file organization (Drive structure)."
+      }
+    ]
+  },
+  {
+    "id": "research_assign_chatgpt_scholarai_mendeley",
+    "priority": 88,
+    "when": {
+      "focus": ["research"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "discovery": ["Scholar AI"],
+        "litreview": ["Mendeley", "Zotero"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Targeted Literature Collection",
+        "desc": "Search with Scholar AI, organize in Mendeley, use ChatGPT to draft synthesis and identify theoretical framework."
+      },
+      {
+        "title": "Systematic Review Protocol",
+        "desc": "Design search strategy with ChatGPT, find papers via Scholar AI, manage in Mendeley with systematic tags."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Search strategy",
+        "text": "Design a systematic search strategy for [TOPIC]. Include: key terms, inclusion/exclusion criteria, database approach, and synthesis plan."
+      }
+    ]
+  },
+  {
+    "id": "program_capstone_chatgpt_airtable_powerbi_claude",
+    "priority": 76,
+    "when": {
+      "focus": ["program"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"],
+        "litreview": ["Airtable"],
+        "data": ["Power BI"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Multi-Program Assessment Infrastructure",
+        "desc": "Build comprehensive system: structure data in Airtable, create dashboards in Power BI, generate reports with ChatGPT/Claude."
+      },
+      {
+        "title": "Institutional Research Platform",
+        "desc": "Develop centralized assessment platform with database, visualization, and automated reporting capabilities."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Assessment system design",
+        "text": "Design an assessment system for [PROGRAMS]. Include: data structure (Airtable), metrics (Power BI), reporting schedule, and stakeholder views."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_quillbot",
+    "priority": 93,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "litreview": ["QuillBot", "Grammarly"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Accessibility-Focused Communication",
+        "desc": "Draft syllabus/assignment with ChatGPT, use QuillBot to adjust reading level for accessibility."
+      },
+      {
+        "title": "Clear Instructions Generator",
+        "desc": "Create assignment instructions with ChatGPT, simplify language with QuillBot for student clarity."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Accessible instructions",
+        "text": "Write assignment instructions for [TASK] at [READING LEVEL]. Use: short sentences, active voice, bullet points where helpful, clear structure."
+      }
+    ]
+  },
+  {
+    "id": "research_quick_claude_googlescholar",
+    "priority": 95,
+    "when": {
+      "focus": ["research"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "discovery": ["Google Scholar", "Semantic Scholar"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Citation Context Analysis",
+        "desc": "Find papers in Google Scholar, use Claude to analyze how sources cite each other and identify conversation threads."
+      },
+      {
+        "title": "Quick Gap Identification",
+        "desc": "Search recent work with Google Scholar, ask Claude to identify methodological or conceptual gaps."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Citation analysis",
+        "text": "Analyze how these papers on [TOPIC] cite each other. Identify: main debates, methodological choices, and emerging questions."
+      }
+    ]
+  },
+  {
+    "id": "both_assign_chatgpt_perplexity_tableau_midjourney",
+    "priority": 82,
+    "when": {
+      "focus": ["both"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "discovery": ["Perplexity"],
+        "data": ["Tableau"],
+        "genai_images": ["Midjourney"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Data-Driven Teaching Materials",
+        "desc": "Research current data with Perplexity, create visualizations in Tableau, design supplementary graphics with Midjourney, draft activities with ChatGPT."
+      },
+      {
+        "title": "Research Communication Package",
+        "desc": "Find context with Perplexity, visualize findings in Tableau, create conceptual images with Midjourney, write narrative with ChatGPT."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Data visualization lesson",
+        "text": "Design a lesson using current data on [TOPIC]. Include: data source, Tableau visualization, discussion prompts, and supplementary visuals."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_claude_excel_canva_elevenlabs",
+    "priority": 83,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "data": ["Excel", "Canva"],
+        "genai_audio": ["ElevenLabs"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Multi-Modal Assessment Development",
+        "desc": "Design rubric in Excel with Claude, create visual rubric guide in Canva, produce audio explanation with ElevenLabs."
+      },
+      {
+        "title": "Accessible Grade Feedback System",
+        "desc": "Track grades in Excel, design feedback templates in Canva, create audio feedback option with ElevenLabs."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Multi-format rubric",
+        "text": "Create a rubric for [ASSIGNMENT] with versions for: spreadsheet tracking (Excel), visual guide (Canva), audio explanation (script for ElevenLabs)."
+      }
+    ]
+  },
+  {
+    "id": "research_capstone_claude_rstudio_scrivener_midjourney",
+    "priority": 75,
+    "when": {
+      "focus": ["research"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "data": ["R Studio"],
+        "litreview": ["Scrivener"],
+        "genai_images": ["Midjourney"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Publication-Ready Manuscript",
+        "desc": "Analyze data in R Studio with Claude assistance, write manuscript in Scrivener, create publication figures with Midjourney."
+      },
+      {
+        "title": "Dissertation with Integrated Analysis",
+        "desc": "Conduct statistical analysis in R, organize writing in Scrivener, design conceptual models with Midjourney for clarity."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Results section with figures",
+        "text": "Draft a results section for [STUDY] integrating: R analysis output, statistical narratives, and figure descriptions. Include Midjourney prompts for conceptual diagrams."
+      }
+    ]
+  },
+  {
+    "id": "both_quick_perplexity_dalle_chatgpt",
+    "priority": 90,
+    "when": {
+      "focus": ["both"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "discovery": ["Perplexity"],
+        "genai_images": ["DALL-E"],
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Rapid Presentation Prep",
+        "desc": "Research current examples with Perplexity, draft slides with ChatGPT, generate custom images with DALL-E."
+      },
+      {
+        "title": "Quick Visual Explainer",
+        "desc": "Find context with Perplexity, write explanation with ChatGPT, create supporting image with DALL-E."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Presentation slide plan",
+        "text": "Create outline for 5-minute presentation on [TOPIC]: key points, examples (Perplexity), visuals needed (DALL-E prompts)."
+      }
+    ]
+  },
+  {
+    "id": "teaching_capstone_chatgpt_notion_tableau_runway",
+    "priority": 77,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "litreview": ["Notion"],
+        "data": ["Tableau"],
+        "genai_video": ["Runway"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Data Literacy Course Build",
+        "desc": "Organize course in Notion, develop data activities with Tableau, create explainer videos with Runway, draft with ChatGPT."
+      },
+      {
+        "title": "Analytics-Focused Curriculum",
+        "desc": "Structure learning modules in Notion, design hands-on Tableau projects, produce video tutorials with Runway."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Data course structure",
+        "text": "Design a course teaching data literacy to [AUDIENCE]. Include: module topics (Notion), Tableau projects, video content plan (Runway)."
+      }
+    ]
+  },
+  {
+    "id": "program_assign_claude_googledrive_notion",
+    "priority": 87,
+    "when": {
+      "focus": ["program"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "data": ["Google Drive"],
+        "litreview": ["Notion"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Program Documentation System",
+        "desc": "Create documentation structure in Notion, store files in Google Drive, use Claude to draft policies and procedures."
+      },
+      {
+        "title": "Assessment Evidence Repository",
+        "desc": "Organize evidence in Google Drive folders, track in Notion database, generate reports with Claude."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Documentation structure",
+        "text": "Design a documentation system for [PROGRAM] including: Notion database structure, Google Drive folder organization, and key document templates."
+      }
+    ]
+  },
+  {
+    "id": "research_assign_perplexity_python_chatgpt",
+    "priority": 86,
+    "when": {
+      "focus": ["research"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "discovery": ["Perplexity"],
+        "data": ["Python"],
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Computational Research Project",
+        "desc": "Research methods with Perplexity, write analysis code in Python with ChatGPT help, document reproducible workflow."
+      },
+      {
+        "title": "Data Collection Pipeline",
+        "desc": "Find API documentation with Perplexity, code data collection in Python with ChatGPT assistance."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Code documentation",
+        "text": "Help me document Python code for [ANALYSIS]. Include: purpose, inputs, processing steps, outputs, and usage examples."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_claude_powerpoint",
+    "priority": 92,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "data": ["PowerPoint", "Google Slides"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Quick Lecture Slides",
+        "desc": "Generate slide content with Claude, organize in PowerPoint with clear visuals and minimal text."
+      },
+      {
+        "title": "Student Presentation Template",
+        "desc": "Create assignment presentation template with Claude guidance, format in PowerPoint for student use."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Slide outline",
+        "text": "Create a slide outline for [TOPIC] (20 minutes). For each slide: title, 2-3 bullet points, suggested visual type."
+      }
+    ]
+  },
+  {
+    "id": "both_capstone_perplexity_notebooklm_scrivener_tableau_midjourney_runway",
+    "priority": 70,
+    "when": {
+      "focus": ["both"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "discovery": ["Perplexity"],
+        "litreview": ["NotebookLM", "Scrivener"],
+        "data": ["Tableau"],
+        "genai_images": ["Midjourney"],
+        "genai_video": ["Runway"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Complete Research-to-Teaching Pipeline",
+        "desc": "Research with Perplexity, organize in NotebookLM, write in Scrivener, visualize in Tableau, create media with Midjourney/Runway."
+      },
+      {
+        "title": "Multi-Modal Scholarship Project",
+        "desc": "Develop comprehensive project using all modalities: research, writing, data visualization, images, and video."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Comprehensive project plan",
+        "text": "Plan a project on [TOPIC] that integrates: research (Perplexity), synthesis (NotebookLM), writing (Scrivener), data (Tableau), and media (Midjourney/Runway)."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_thinkpairshare",
+    "priority": 94,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Think-Pair-Share Activity Generator",
+        "desc": "Use ChatGPT to create thought-provoking questions for think-pair-share activities. Frame questions that promote deep thinking, peer discussion, and whole-class synthesis."
+      },
+      {
+        "title": "One-Minute Paper Prompts",
+        "desc": "Generate quick formative assessment prompts with ChatGPT for minute papers: What was most important? What's still unclear? How does this connect?"
+      },
+      {
+        "title": "Pause Procedure Questions",
+        "desc": "Create strategic pause points in lectures with discussion questions that help students process, organize, and consolidate learning."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Think-pair-share design",
+        "text": "Create a think-pair-share activity on [TOPIC] for [AUDIENCE]. Include: individual thinking prompt (2 min), pair discussion guide (5 min), whole-class debrief questions."
+      },
+      {
+        "label": "Formative check prompt",
+        "text": "Generate 3 one-minute paper prompts for [TOPIC] that check: understanding, application ability, and connection to prior knowledge."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_perplexity_backwarddesign",
+    "priority": 89,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "discovery": ["Perplexity"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Backward Design Course Planning",
+        "desc": "Use Perplexity to research learning outcome examples, ChatGPT to draft outcomes → assessments → activities using Wiggins & McTighe framework."
+      },
+      {
+        "title": "Assessment-Driven Unit Design",
+        "desc": "Start with desired performance task (ChatGPT), identify evidence needed (backward design), research best practices (Perplexity), plan instruction."
+      },
+      {
+        "title": "Understanding-Focused Module",
+        "desc": "Define big ideas and essential questions with ChatGPT, find current examples with Perplexity, design for transfer and meaning-making."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Learning outcomes first",
+        "text": "Using backward design, help me create a unit on [TOPIC]. Start with: 3-5 specific learning outcomes, then suggest assessment evidence, then activities."
+      },
+      {
+        "label": "Essential questions",
+        "text": "Generate 3 essential questions for [TOPIC] that: provoke deep thinking, recur throughout the unit, lead to transferable understanding beyond course content."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_claude_notebooklm_udl",
+    "priority": 87,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["Claude"],
+        "litreview": ["NotebookLM"]
+      }
+    },
+    "applications": [
+      {
+        "title": "UDL-Aligned Course Design",
+        "desc": "Upload UDL guidelines to NotebookLM, use Claude to redesign course with multiple means of engagement, representation, and action/expression."
+      },
+      {
+        "title": "Flexible Assessment Options",
+        "desc": "Design assessments with choice: upload examples to NotebookLM, use Claude to create options that assess same outcomes through different modalities."
+      },
+      {
+        "title": "Accessibility Audit & Redesign",
+        "desc": "Analyze current materials in NotebookLM for barriers, use Claude to suggest UDL-based improvements for perception, language, comprehension, engagement."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "UDL course review",
+        "text": "Review this course for UDL principles. Suggest improvements for: multiple means of engagement (interest, effort, self-regulation), representation (perception, language, comprehension), action/expression (physical action, expression, executive function)."
+      },
+      {
+        "label": "Flexible assessment design",
+        "text": "Create 3 assessment options for [LEARNING OUTCOME] that allow students choice while maintaining rigor. Each should use different modalities (written, oral, visual, performance)."
+      }
+    ]
+  },
+  {
+    "id": "teaching_capstone_chatgpt_perplexity_sotl",
+    "priority": 78,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "discovery": ["Perplexity", "Google Scholar"]
+      }
+    },
+    "applications": [
+      {
+        "title": "SoTL Research Project Design",
+        "desc": "Find SoTL literature with Perplexity, use ChatGPT to design classroom research: research question, methodology, data collection, IRB planning."
+      },
+      {
+        "title": "Classroom Assessment Research",
+        "desc": "Design systematic inquiry into student learning: frame question with ChatGPT, review SoTL methods with Perplexity, plan implementation and dissemination."
+      },
+      {
+        "title": "Teaching Innovation Study",
+        "desc": "Document and study new teaching approach: research similar studies with Perplexity, design study protocol with ChatGPT, plan for publication."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "SoTL question development",
+        "text": "I'm interested in studying [TEACHING PRACTICE] in my [COURSE]. Help me develop a SoTL research question that's: focused on student learning, grounded in literature, methodologically feasible."
+      },
+      {
+        "label": "SoTL study design",
+        "text": "Design a SoTL study to investigate [RESEARCH QUESTION]. Include: data collection methods, timeline, analysis approach, ethical considerations, and dissemination plan."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_problembasedlearning",
+    "priority": 86,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Problem-Based Learning Scenario",
+        "desc": "Use ChatGPT to design authentic, ill-structured problems that require students to identify learning needs, research, collaborate, and propose solutions."
+      },
+      {
+        "title": "Case-Based Instruction",
+        "desc": "Generate complex cases with multiple stakeholders, conflicting information, and real-world constraints that mirror professional practice."
+      },
+      {
+        "title": "Inquiry-Based Module",
+        "desc": "Create driving questions and scaffolded inquiry process where students pose questions, investigate, and construct knowledge collaboratively."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "PBL problem design",
+        "text": "Create a problem-based learning scenario for [TOPIC]. Include: authentic context, ill-structured problem, key stakeholders, conflicting perspectives, learning objectives it addresses."
+      },
+      {
+        "label": "Case study framework",
+        "text": "Design a case study for [TOPIC] that includes: setting/context, key characters, decision point, data/evidence, questions for analysis. Suitable for [AUDIENCE]."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_activelearning_strategies",
+    "priority": 92,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Quick Active Learning Injection",
+        "desc": "Transform passive lecture segments into active learning moments: pair discussions, concept checks, application exercises, peer instruction."
+      },
+      {
+        "title": "Muddiest Point Collection",
+        "desc": "Generate targeted questions to identify student confusion points, create quick clarification activities based on common misconceptions."
+      },
+      {
+        "title": "Retrieval Practice Design",
+        "desc": "Create low-stakes quizzes and practice questions that promote memory consolidation and identify knowledge gaps."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Lecture active learning",
+        "text": "I'm lecturing on [TOPIC] for 50 minutes. Suggest 3 active learning activities (5-7 min each) I can insert at strategic points to check understanding and increase engagement."
+      },
+      {
+        "label": "Retrieval practice questions",
+        "text": "Create 10 retrieval practice questions for [TOPIC] at varying difficulty levels. Include: factual recall, concept application, and synthesis questions."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_teambasedlearning",
+    "priority": 85,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Team-Based Learning Module",
+        "desc": "Design complete TBL sequence: individual readiness test, team readiness test, application exercises with simultaneous reporting."
+      },
+      {
+        "title": "POGIL Guided Inquiry",
+        "desc": "Create Process-Oriented Guided Inquiry Learning activities: learning cycle, critical thinking questions, team roles, metacognitive reflection."
+      },
+      {
+        "title": "Collaborative Problem Sets",
+        "desc": "Design group problem-solving activities with individual accountability, positive interdependence, and structured reflection."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "TBL sequence design",
+        "text": "Create a team-based learning sequence for [TOPIC]. Include: pre-class prep, individual RAT (10 questions), team RAT, and application activity with simultaneous reporting."
+      },
+      {
+        "label": "POGIL activity",
+        "text": "Design a POGIL activity for [CONCEPT]. Include: model/data for teams to explore, critical thinking questions (convergent and divergent), guided conclusion."
+      }
+    ]
+  },
+  {
+    "id": "both_assign_chatgpt_perplexity_flipped",
+    "priority": 84,
+    "when": {
+      "focus": ["both"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "discovery": ["Perplexity"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Flipped Classroom Design",
+        "desc": "Research flipped pedagogy with Perplexity, use ChatGPT to design pre-class content delivery and in-class active learning applications."
+      },
+      {
+        "title": "Just-in-Time Teaching",
+        "desc": "Create warmup exercises with ChatGPT that reveal student thinking, research current examples with Perplexity, adjust class based on responses."
+      },
+      {
+        "title": "Blended Learning Module",
+        "desc": "Design integrated online and face-to-face experiences that leverage strengths of each modality for deeper learning."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Flipped lesson plan",
+        "text": "Design a flipped lesson for [TOPIC]. Specify: pre-class work (readings, videos, checks), in-class activities (application, practice, collaboration), post-class reinforcement."
+      },
+      {
+        "label": "JiTT warmup design",
+        "text": "Create 3 just-in-time teaching warmup questions for [TOPIC] that: assess prior knowledge, reveal misconceptions, prepare students for active learning."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_metacognition",
+    "priority": 86,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Metacognitive Reflection Prompts",
+        "desc": "Design reflection activities that help students monitor their learning process, identify strategies that work, and transfer skills."
+      },
+      {
+        "title": "Self-Regulated Learning Support",
+        "desc": "Create scaffolds for goal-setting, planning, monitoring, and evaluating that build student autonomy and learning effectiveness."
+      },
+      {
+        "title": "Learning Strategy Instruction",
+        "desc": "Explicitly teach learning strategies (note-taking, reading, test prep) with ChatGPT, embed practice and reflection throughout course."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Metacognitive prompts",
+        "text": "Create 5 metacognitive reflection prompts for [ASSIGNMENT]. Address: planning, monitoring understanding, evaluating effectiveness, adjusting strategies, transferring learning."
+      },
+      {
+        "label": "Self-regulation scaffold",
+        "text": "Design a semester-long self-regulated learning scaffold for [COURSE]. Include: goal-setting activities, progress monitoring tools, strategy reflection, adjustment plans."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_formative_assessment",
+    "priority": 93,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Fast Formative Feedback",
+        "desc": "Generate quick checks for understanding: exit tickets, concept checks, application questions that inform next-class instruction."
+      },
+      {
+        "title": "Diagnostic Assessment Design",
+        "desc": "Create pre-assessments that reveal prior knowledge, identify misconceptions, and help differentiate instruction."
+      },
+      {
+        "title": "Low-Stakes Practice",
+        "desc": "Design frequent, low-stakes opportunities for students to practice, get feedback, and improve without grade pressure."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Exit ticket set",
+        "text": "Create 5 different exit ticket formats for [TOPIC]: muddiest point, 3-2-1, application scenario, self-assessment, next-class question."
+      },
+      {
+        "label": "Diagnostic questions",
+        "text": "Design a 5-question diagnostic assessment for [TOPIC] that reveals: prerequisite knowledge, common misconceptions, readiness for new content."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_authentic_assessment",
+    "priority": 87,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Performance Task Design",
+        "desc": "Create authentic assessments that mirror real-world application: portfolios, presentations, simulations, projects with actual audiences."
+      },
+      {
+        "title": "Rubric Development",
+        "desc": "Design analytic rubrics with clear performance levels, share with students in advance, use for peer and self-assessment."
+      },
+      {
+        "title": "Transfer-Focused Assessment",
+        "desc": "Create assessments that require applying learning in new contexts, demonstrating understanding through explanation and justification."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Authentic task design",
+        "text": "Design an authentic assessment for [LEARNING OUTCOMES]. Include: real-world context, audience, purpose, constraints, deliverable, and connection to professional practice."
+      },
+      {
+        "label": "Analytic rubric",
+        "text": "Create a detailed analytic rubric for [TASK] with 4-5 criteria and 4 performance levels (exemplary, proficient, developing, novice). Make descriptors specific and observable."
+      }
+    ]
+  },
+  {
+    "id": "teaching_capstone_chatgpt_perplexity_inclusivepedagogy",
+    "priority": 79,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "discovery": ["Perplexity"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Culturally Responsive Course Design",
+        "desc": "Research inclusive pedagogy with Perplexity, redesign course with ChatGPT to include diverse perspectives, reduce bias, and promote belonging."
+      },
+      {
+        "title": "Equity-Minded Assessment",
+        "desc": "Audit assessments for bias, design alternatives that reduce barriers and opportunity gaps while maintaining rigor."
+      },
+      {
+        "title": "Community-Engaged Learning",
+        "desc": "Design partnerships with community organizations where students apply learning to address real needs, reflecting on power and positionality."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Inclusive syllabus audit",
+        "text": "Review this syllabus for inclusivity. Check: diverse author representation, accessible language, flexible policies, growth mindset framing, clear belonging signals."
+      },
+      {
+        "label": "Equity-minded assessment",
+        "text": "Redesign this assessment to reduce equity gaps while maintaining rigor. Consider: multiple attempts, choice, scaffolding, bias in prompts, grading practices."
+      }
+    ]
+  },
+  {
+    "id": "research_assign_chatgpt_perplexity_mixedmethods",
+    "priority": 86,
+    "when": {
+      "focus": ["research"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "discovery": ["Perplexity"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Mixed Methods Study Design",
+        "desc": "Research mixed methods approaches with Perplexity, use ChatGPT to design integrated qualitative and quantitative data collection and analysis."
+      },
+      {
+        "title": "Convergent Design Planning",
+        "desc": "Plan concurrent collection of qual and quant data, design integration and comparison strategies for complementary insights."
+      },
+      {
+        "title": "Explanatory Sequential Study",
+        "desc": "Design two-phase study: quantitative findings first, then qualitative exploration to explain patterns and anomalies."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Mixed methods framework",
+        "text": "Design a mixed methods study for [RESEARCH QUESTION]. Specify: research design (convergent/explanatory/exploratory), data sources, integration strategy, validity considerations."
+      },
+      {
+        "label": "Integration strategy",
+        "text": "I have [QUANT DATA] and [QUAL DATA]. Suggest 3 ways to integrate these for richer insights: merging, connecting, or embedding approaches."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_servicelearning",
+    "priority": 84,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Service-Learning Project Design",
+        "desc": "Create community partnership projects where students apply course concepts to address authentic needs while reflecting on civic engagement."
+      },
+      {
+        "title": "Experiential Learning Cycle",
+        "desc": "Design experiences that cycle through concrete experience, reflective observation, abstract conceptualization, and active experimentation."
+      },
+      {
+        "title": "Civic Engagement Assignment",
+        "desc": "Create assignments connecting course content to civic issues, requiring action and structured reflection on learning and responsibility."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Service-learning design",
+        "text": "Design a service-learning project for [COURSE] that: addresses community need, applies course concepts, includes structured reflection, assesses learning outcomes."
+      },
+      {
+        "label": "Reflection structure",
+        "text": "Create a reflection framework for experiential learning in [CONTEXT]. Include prompts for: describing experience, analyzing using course concepts, applying to future contexts."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_discussionfacilitation",
+    "priority": 91,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Discussion Question Design",
+        "desc": "Create open-ended questions that promote analysis, evaluation, and synthesis rather than simple recall or yes/no answers."
+      },
+      {
+        "title": "Socratic Seminar Planning",
+        "desc": "Design student-led discussions with opening question, follow-up prompts, and guidelines for building on others' ideas."
+      },
+      {
+        "title": "Fishbowl Discussion Setup",
+        "desc": "Create inner/outer circle discussion format with observer roles, switching protocols, and debrief questions."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Discussion questions",
+        "text": "Generate 5 discussion questions for [READING/TOPIC] that move from comprehension to analysis to evaluation. Include follow-up probes for each."
+      },
+      {
+        "label": "Seminar structure",
+        "text": "Design a 45-minute Socratic seminar on [TOPIC]. Include: opening question, student preparation guide, participation rubric, closure activity."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_writingintensive",
+    "priority": 85,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Scaffolded Writing Assignment",
+        "desc": "Break large writing project into stages: proposal, annotated bibliography, outline, draft, revision with feedback at each stage."
+      },
+      {
+        "title": "Writing-to-Learn Activities",
+        "desc": "Design low-stakes writing that promotes thinking: reading responses, learning logs, problem explanations, concept summaries."
+      },
+      {
+        "title": "Peer Review Protocol",
+        "desc": "Create structured peer review with specific questions, reviewer training, and revision requirements based on feedback."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Scaffolded writing plan",
+        "text": "Break this [FINAL PAPER] into 5-6 scaffolded stages across the semester. For each: deliverable, feedback mechanism, how it builds toward final product."
+      },
+      {
+        "label": "Peer review guide",
+        "text": "Create a peer review guide for [ASSIGNMENT]. Include: what to look for, specific questions to answer, how to give constructive feedback, revision checklist."
+      }
+    ]
+  },
+  {
+    "id": "teaching_capstone_chatgpt_courseportfolio",
+    "priority": 77,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Teaching Portfolio Development",
+        "desc": "Document teaching philosophy, evidence of effectiveness, reflective analysis of practice for review, promotion, or job market."
+      },
+      {
+        "title": "Course Portfolio for SoTL",
+        "desc": "Create systematic documentation of course goals, methods, student learning, and reflective improvements for scholarship of teaching."
+      },
+      {
+        "title": "Program Assessment Portfolio",
+        "desc": "Compile evidence of program-level learning, analyze patterns, document improvements for accreditation or review."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Teaching philosophy",
+        "text": "Help me draft a teaching philosophy statement that: articulates learning theory, provides concrete examples from practice, shows evidence of effectiveness, discusses ongoing development."
+      },
+      {
+        "label": "Course portfolio structure",
+        "text": "Create outline for a course portfolio on [COURSE] including: goals, syllabus, assessments, student work samples, learning evidence, reflective analysis, future improvements."
+      }
+    ]
+  },
+  {
+    "id": "program_assign_chatgpt_outcomeassessment",
+    "priority": 88,
+    "when": {
+      "focus": ["program"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Learning Outcomes Assessment Plan",
+        "desc": "Design systematic assessment of program outcomes: direct and indirect measures, rubrics, data collection schedule, improvement cycle."
+      },
+      {
+        "title": "Curriculum Mapping",
+        "desc": "Map where each program outcome is introduced, reinforced, and mastered across courses. Identify gaps and redundancies."
+      },
+      {
+        "title": "Assessment Rubric Design",
+        "desc": "Create program-level rubrics that can be used across courses to track student development on key outcomes over time."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Assessment plan",
+        "text": "Create a 3-year assessment plan for [PROGRAM OUTCOME]. Include: measures (direct and indirect), targets, data collection timeline, analysis approach, use of results."
+      },
+      {
+        "label": "Curriculum map",
+        "text": "Design a curriculum map for [PROGRAM] showing where each of [N] outcomes is: introduced (I), reinforced (R), mastered (M) across required courses."
+      }
+    ]
+  },
+  {
+    "id": "both_assign_chatgpt_interdisciplinary",
+    "priority": 83,
+    "when": {
+      "focus": ["both"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Interdisciplinary Course Design",
+        "desc": "Create course integrating multiple disciplinary perspectives on complex problem, with team teaching and integrated assessment."
+      },
+      {
+        "title": "Wicked Problem Exploration",
+        "desc": "Design learning around complex societal issues requiring multiple frameworks: climate change, inequality, public health."
+      },
+      {
+        "title": "Cross-Disciplinary Research Project",
+        "desc": "Develop research project requiring integration of methods, theories, or data from multiple disciplines for holistic understanding."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Interdisciplinary course",
+        "text": "Design an interdisciplinary course on [TOPIC] integrating [DISCIPLINE 1] and [DISCIPLINE 2]. Include: shared questions, disciplinary contributions, integrative assessments."
+      },
+      {
+        "label": "Wicked problem module",
+        "text": "Create a module exploring [COMPLEX ISSUE] from multiple perspectives. Include: problem framing, disciplinary lenses, stakeholder analysis, synthesis activity."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_gamification",
+    "priority": 82,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Course Gamification Design",
+        "desc": "Add game elements to course: points, levels, badges, quests, leaderboards while maintaining learning focus and avoiding extrinsic motivation trap."
+      },
+      {
+        "title": "Learning Quest Design",
+        "desc": "Create narrative-driven sequence of challenges where students unlock content, choose paths, and collaborate to achieve goals."
+      },
+      {
+        "title": "Educational Game Creation",
+        "desc": "Design classroom games (simulations, competitions, role-plays) that engage students while reinforcing key concepts and skills."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Gamification framework",
+        "text": "Design a gamification system for [COURSE] including: point structure, levels/progression, badges for achievements, how it aligns with learning goals without undermining intrinsic motivation."
+      },
+      {
+        "label": "Learning game design",
+        "text": "Create a classroom game for [TOPIC] that: has clear rules, requires strategy, promotes learning through play, includes debrief connecting game to concepts."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_transparentassignment",
+    "priority": 90,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Transparent Assignment Design",
+        "desc": "Make assignments more transparent by explicitly stating: purpose, task, criteria. Help students understand why and how of learning."
+      },
+      {
+        "title": "Learning Goals Communication",
+        "desc": "Articulate what students will know and be able to do, connecting assignments to outcomes in student-friendly language."
+      },
+      {
+        "title": "Success Criteria Clarity",
+        "desc": "Provide clear examples of what success looks like, share rubrics in advance, demystify evaluation for student agency."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Transparent assignment",
+        "text": "Rewrite this assignment to make it transparent. Explicitly state: PURPOSE (why we're doing this, skills it builds), TASK (what to do, step-by-step), CRITERIA (how it will be evaluated)."
+      },
+      {
+        "label": "Student-facing outcomes",
+        "text": "Translate these learning outcomes into student-friendly language that answers: What will I be able to do? Why does it matter? How will I know I've succeeded?"
+      }
+    ]
+  },
+  {
+    "id": "research_capstone_chatgpt_perplexity_grantsmanship",
+    "priority": 76,
+    "when": {
+      "focus": ["research"],
+      "mode": ["capstone"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"],
+        "discovery": ["Perplexity"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Grant Proposal Development",
+        "desc": "Research funding opportunities with Perplexity, use ChatGPT to draft proposal sections: significance, innovation, approach, broader impacts."
+      },
+      {
+        "title": "Budget Justification Writing",
+        "desc": "Create detailed budget narratives explaining personnel, equipment, travel, and other costs with connection to project goals."
+      },
+      {
+        "title": "Collaborative Grant Planning",
+        "desc": "Develop multi-PI proposals: define roles, plan management, create collaboration agreements, design integrated work plan."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Significance section",
+        "text": "Draft the significance section for a grant on [RESEARCH]. Address: problem importance, knowledge gap, innovative approach, potential impact. Use evidence-based framing."
+      },
+      {
+        "label": "Broader impacts",
+        "text": "Write broader impacts statement for [RESEARCH] covering: societal benefits, educational activities, inclusion efforts, dissemination plan. Be specific and compelling."
+      }
+    ]
+  }
+]
