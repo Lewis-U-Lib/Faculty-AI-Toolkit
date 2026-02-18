@@ -389,7 +389,7 @@ body::before{
 
   <!-- ══ HEADER ══ -->
   <header class="hdr">
-    <div class="hdr__eyebrow">🎓 Research & Teaching · 24 AI Tools · 50 Rules · 140+ Activities</div>
+    <div class="hdr__eyebrow">🎓 Research & Teaching · 24 AI Tools · 56 Rules · 200+ Activities</div>
     <h1 class="hdr__title">Faculty AI Toolkit</h1>
     <p class="hdr__sub">Tell us about your teaching context — get matched with the right AI tools and assignment ideas for your exact situation.</p>
   </header>
@@ -1839,6 +1839,330 @@ var RULES = [
         tags:["reflexivity","qualitative","rigor","research","positionality"] }
     ]
   }
+
+,
+
+  /* PHASE 2.5 EXPANSION: WEB-RESEARCHED DISCIPLINE-SPECIFIC ACTIVITIES */
+
+  /* HUMANITIES - LITERATURE & TEXTUAL ANALYSIS */
+  { id:"hum_literature_ai",
+    when:{ focus:["teaching","both"], discipline:["humanities"], task:["discussion","creative","assessment"] },
+    priority:10,
+    tools:["claude","chatgpt","notebooklm"],
+    activities:[
+      { title:"AI Poetry Style Mimicry Critique",
+        time:"1 class session", bloom:"evaluate",
+        desc:"Prompt AI to mimic Emily Dickinson, John Donne, or Anne Carson. Students critique why AI lacks the weirdness and surprise of real poetry. AI is too predictable.",
+        tags:["poetry","close reading","humanities","literary analysis"] },
+      { title:"Archaic Text Glossary Generation",
+        time:"ongoing", bloom:"understand",
+        desc:"Students input older literary texts into AI for instant definitions of archaic terms. Like a dynamic glossary. Focus time on ideas, not vocabulary lookup.",
+        tags:["literature","historical texts","humanities","language"] },
+      { title:"Character Image Generation Analysis",
+        time:"2-3 hours", bloom:"create",
+        desc:"Generate images of literary characters with Midjourney. Analyze what AI gets right/wrong about textual descriptions. Discuss interpretation vs visualization.",
+        tags:["literature","character analysis","GenAI","humanities"] },
+      { title:"Comparative Literary Movement Summaries",
+        time:"1-2 days", bloom:"analyze",
+        desc:"AI explains Romanticism, Modernism, Postmodernism. Students verify against scholarly sources. Identify what AI oversimplifies or misses about historical context.",
+        tags:["literary history","movements","humanities","context"] },
+      { title:"Student-as-Text-Generator Exercise",
+        time:"1 class session", bloom:"apply",
+        desc:"Students manually mimic AI by 'predicting' next words in their own essays. Embodied understanding of AI constraints. Reveals why human writing matters.",
+        tags:["writing process","metacognition","humanities","experiential"] }
+    ]
+  },
+
+  /* HUMANITIES - HISTORY & PHILOSOPHY */
+  { id:"hum_history_philosophy",
+    when:{ focus:["teaching","both"], discipline:["humanities"], task:["research","discussion","materials"] },
+    priority:10,
+    tools:["chatpdf","claude","perplexity","notebooklm"],
+    activities:[
+      { title:"Primary Source Contextualization",
+        time:"1-2 weeks", bloom:"analyze",
+        desc:"Upload historical documents to ChatPDF. AI extracts dates, names, events. Students perform all historical interpretation and contextualization.",
+        tags:["primary sources","history","humanities","archives"] },
+      { title:"Historiographical Debate Mapping",
+        time:"2-3 days", bloom:"analyze",
+        desc:"Use Claude to map how historians debate an event differently (e.g., causes of WWI). Students identify paradigm shifts and methodological differences.",
+        tags:["historiography","debate","history","humanities"] },
+      { title:"Philosophy Concept Clarification",
+        time:"ongoing", bloom:"understand",
+        desc:"Students prompt AI to explain dense philosophical concepts (Kant's categorical imperative). Use as starting point, then engage with primary texts for nuance.",
+        tags:["philosophy","concepts","humanities","scaffolding"] },
+      { title:"Historical Counterfactual Analysis",
+        time:"1 week", bloom:"evaluate",
+        desc:"Prompt AI with counterfactual scenarios ('What if Rome never fell?'). Students critique AI's determinism and lack of historical contingency.",
+        tags:["counterfactuals","critical thinking","history","humanities"] },
+      { title:"Digital Archive Navigation",
+        time:"module", bloom:"apply",
+        desc:"Use AI to scan digitized archives for relevant documents. Students curate findings, verify authenticity, contextualize within historiography.",
+        tags:["archives","digital humanities","research","history"] }
+    ]
+  },
+
+  /* STEM - LABORATORY & EXPERIMENTAL */
+  { id:"stem_laboratory_advanced",
+    when:{ focus:["teaching","both"], discipline:["stem"], task:["assessment","research"] },
+    priority:10,
+    tools:["julius","claude","chatgpt"],
+    activities:[
+      { title:"Pre-Lab AI Simulation",
+        time:"before lab", bloom:"apply",
+        desc:"Students use AI to simulate lab procedures, predict outcomes. Compare predictions to actual results. Discuss discrepancies and experimental error.",
+        tags:["laboratory","simulation","STEM","experimentation"] },
+      { title:"Error Propagation Calculator",
+        time:"during lab", bloom:"analyze",
+        desc:"Julius AI helps calculate error propagation in multi-step experiments. Students verify calculations manually. Understand uncertainty quantification.",
+        tags:["laboratory","error analysis","STEM","precision"] },
+      { title:"Lab Report Methods Clarity Check",
+        time:"post-lab", bloom:"create",
+        desc:"Submit methods section to Claude. AI flags ambiguities preventing replication. Students revise for specificity and procedural completeness.",
+        tags:["lab report","methods","STEM","scientific writing"] },
+      { title:"Experimental Design Peer Review",
+        time:"1-2 weeks", bloom:"evaluate",
+        desc:"AI reviews proposed experimental designs for confounds, sample size, controls. Students address AI and human feedback before conducting experiment.",
+        tags:["experimental design","STEM","methods","peer review"] },
+      { title:"Data Visualization Best Practices",
+        time:"ongoing", bloom:"create",
+        desc:"Generate multiple visualizations of same data in Julius. Compare for clarity, misleading features, appropriate chart types. Learn data honesty.",
+        tags:["data viz","STEM","graphing","ethics"] }
+    ]
+  },
+
+  /* STEM - ENGINEERING & COMPUTATION */
+  { id:"stem_engineering_code",
+    when:{ focus:["teaching","both"], discipline:["stem"], task:["research","assessment","materials"] },
+    priority:10,
+    tools:["chatgpt","claude","julius"],
+    activities:[
+      { title:"Code Review for Logic Errors",
+        time:"ongoing", bloom:"analyze",
+        desc:"Submit code to ChatGPT for logic error detection. AI suggests fixes. Students must understand and explain fixes before implementing. No blind copying.",
+        tags:["coding","debugging","STEM","programming"] },
+      { title:"Algorithm Complexity Analysis",
+        time:"1-2 hours", bloom:"evaluate",
+        desc:"Ask AI to analyze Big O complexity of student algorithms. Verify AI's analysis. Optimize code based on insights. Focus on computational efficiency.",
+        tags:["algorithms","complexity","STEM","computer science"] },
+      { title:"Engineering Documentation Generation",
+        time:"per project", bloom:"create",
+        desc:"Use Claude to draft technical documentation for engineering projects. Students edit for accuracy and completeness. Learn professional documentation standards.",
+        tags:["documentation","engineering","technical writing","STEM"] },
+      { title:"Unit Test Case Generation",
+        time:"ongoing", bloom:"create",
+        desc:"AI generates initial unit tests for code. Students add edge cases AI missed. Emphasizes thorough testing and defensive programming.",
+        tags:["testing","STEM","software engineering","quality"] },
+      { title:"Thermodynamics Concept Clarification",
+        time:"ongoing", bloom:"understand",
+        desc:"AI explains abstract thermodynamics concepts (entropy, reversibility). Students apply to problem-solving. Human validates numerical work; AI for conceptual scaffolding.",
+        tags:["thermodynamics","engineering","STEM","concepts"] }
+    ]
+  },
+
+  /* HEALTH - CLINICAL SIMULATION ADVANCED */
+  { id:"health_simulation_immersive",
+    when:{ focus:["teaching","both"], discipline:["health"], task:["assessment","discussion"] },
+    priority:10,
+    tools:["chatgpt","claude"],
+    activities:[
+      { title:"AI Virtual Patient Interviews",
+        time:"1-2 hours", bloom:"apply",
+        desc:"ChatGPT acts as virtual patient with specific case. Students conduct history-taking. AI provides dynamic responses. Debrief on communication and clinical reasoning.",
+        tags:["simulation","clinical reasoning","health","communication"] },
+      { title:"Deteriorating Patient Scenario",
+        time:"1 class session", bloom:"analyze",
+        desc:"AI describes progressively worsening patient symptoms. Students identify deterioration patterns, prioritize interventions. Practice rapid assessment skills.",
+        tags:["clinical reasoning","deterioration","health","simulation"] },
+      { title:"Medication Dosage Verification",
+        time:"ongoing", bloom:"apply",
+        desc:"Students calculate drug dosages. AI provides instant feedback on calculations. Emphasize double-checking and safe medication administration practices.",
+        tags:["medication safety","dosage","health","patient safety"] },
+      { title:"Cultural Competency Scenarios",
+        time:"2-3 hours", bloom:"apply",
+        desc:"AI-generated patients from diverse cultural backgrounds. Students navigate language barriers, cultural health beliefs, family dynamics. Develop cultural humility.",
+        tags:["cultural competency","simulation","health","diversity"] },
+      { title:"Nursing Diagnosis Generation Practice",
+        time:"ongoing", bloom:"apply",
+        desc:"Given patient data, students generate nursing diagnoses. AI suggests alternatives. Compare NANDA classifications. Build diagnostic reasoning skills.",
+        tags:["nursing diagnosis","clinical reasoning","health","NANDA"] }
+    ]
+  },
+
+  /* HEALTH - EVIDENCE-BASED PRACTICE */
+  { id:"health_ebp_advanced",
+    when:{ focus:["teaching","research_own","both"], discipline:["health"], task:["litreview","research","assessment"] },
+    priority:10,
+    tools:["elicit","scite","pubmed","anara"],
+    activities:[
+      { title:"PICO Question Formulation",
+        time:"1-2 hours", bloom:"create",
+        desc:"AI helps students structure clinical questions using PICO format (Population, Intervention, Comparison, Outcome). Foundation for evidence-based practice.",
+        tags:["EBP","PICO","health","research questions"] },
+      { title:"Rapid Evidence Appraisal",
+        time:"1 week", bloom:"evaluate",
+        desc:"Use Scite to assess evidence quality for clinical practice guideline. Check if studies are supported or contradicted by later research. Critical appraisal skills.",
+        tags:["EBP","appraisal","health","evidence"] },
+      { title:"Clinical Guideline Gap Analysis",
+        time:"2-3 weeks", bloom:"analyze",
+        desc:"Compare institutional practices to latest evidence-based guidelines using AI literature scans. Identify implementation gaps. Propose quality improvement projects.",
+        tags:["guidelines","EBP","quality improvement","health"] },
+      { title:"Patient Education Material Creation",
+        time:"1 week", bloom:"create",
+        desc:"AI generates patient education handouts at 6th-8th grade reading level. Students verify medical accuracy and cultural appropriateness before distribution.",
+        tags:["patient education","health literacy","health","materials"] },
+      { title:"Systematic Review Screening",
+        time:"2-4 weeks", bloom:"analyze",
+        desc:"Use Rayyan to screen abstracts for systematic review eligibility. AI accelerates process. Students perform full-text review and quality assessment.",
+        tags:["systematic review","screening","health","EBP"] }
+    ]
+  }
+
+  /* SOCIAL SCIENCES - QUALITATIVE METHODS DETAILED */
+  { id:"soc_qualitative_detailed",
+    when:{ focus:["teaching","research_own","both"], discipline:["social"], task:["qualitative","research"] },
+    priority:10,
+    tools:["notebooklm","claude","otter"],
+    activities:[
+      { title:"Interview Guide Development",
+        time:"1-2 days", bloom:"create",
+        desc:"Draft semi-structured interview questions. AI suggests follow-up probes. Human ensures culturally sensitive, non-leading phrasing aligned with research aims.",
+        tags:["interviews","qualitative","social science","methods"] },
+      { title:"Memo Writing with AI Prompts",
+        time:"ongoing", bloom:"analyze",
+        desc:"After each interview, use AI prompts to structure analytic memos. What surprised you? What patterns emerge? What needs follow-up? Build reflexive practice.",
+        tags:["memo writing","qualitative","reflexivity","social science"] },
+      { title:"Focus Group Transcript Analysis",
+        time:"2-3 weeks", bloom:"analyze",
+        desc:"Upload focus group transcripts to NotebookLM. AI identifies speaker patterns, agreement/disagreement. Human codes for group dynamics and emergent themes.",
+        tags:["focus groups","qualitative","social science","analysis"] },
+      { title:"Grounded Theory Constant Comparison",
+        time:"ongoing", bloom:"analyze",
+        desc:"AI helps track evolving codes across interviews. Suggests when categories are saturated. Human maintains theoretical sensitivity and makes conceptual leaps.",
+        tags:["grounded theory","qualitative","coding","social science"] },
+      { title:"Participant Validation Materials",
+        time:"1 week", bloom:"create",
+        desc:"AI generates participant-friendly summaries of preliminary findings for member checking. Students send to participants, incorporate validation feedback.",
+        tags:["member checking","qualitative","validation","social science"] }
+    ]
+  },
+
+  /* BUSINESS - FINANCE & ANALYTICS */
+  { id:"biz_finance_analytics",
+    when:{ focus:["teaching","both"], discipline:["business"], task:["assessment","research"] },
+    priority:10,
+    tools:["julius","chatgpt","perplexity"],
+    activities:[
+      { title:"Financial Statement Ratio Analysis",
+        time:"1 week", bloom:"analyze",
+        desc:"Upload 10-K to Julius. Calculate liquidity, profitability, leverage ratios. Compare to industry benchmarks. Interpret financial health for investment decisions.",
+        tags:["financial analysis","ratios","business","accounting"] },
+      { title:"Stock Valuation Model Building",
+        time:"2-3 weeks", bloom:"create",
+        desc:"Build DCF or comparable company valuation model. AI checks formula logic. Students defend assumptions, sensitivity analysis, recommendation to 'buy/sell/hold'.",
+        tags:["valuation","finance","business","modeling"] },
+      { title:"Market Research Competitor Scan",
+        time:"1 week", bloom:"analyze",
+        desc:"Use Perplexity to scan competitor strategies, market positioning, product lines. Synthesize into SWOT analysis. Propose strategic recommendations.",
+        tags:["market research","strategy","business","competitive analysis"] },
+      { title:"Supply Chain Disruption Scenarios",
+        time:"1-2 days", bloom:"evaluate",
+        desc:"AI generates supply chain disruption scenarios (port closures, tariffs, demand shocks). Students analyze impacts, propose mitigation strategies.",
+        tags:["supply chain","operations","business","risk management"] },
+      { title:"Business Ethics Case Discussion",
+        time:"1 class session", bloom:"evaluate",
+        desc:"AI generates ethically ambiguous business scenarios. Students debate stakeholder impacts, regulatory compliance, corporate social responsibility.",
+        tags:["ethics","business","stakeholders","corporate responsibility"] }
+    ]
+  },
+
+  /* EDUCATION - K-12 PEDAGOGICAL PREPARATION */
+  { id:"edu_k12_pedagogy",
+    when:{ focus:["teaching","both"], discipline:["education"], task:["design","assessment","materials"] },
+    priority:10,
+    tools:["chatgpt","claude"],
+    activities:[
+      { title:"Differentiated Instruction Planning",
+        time:"1-2 weeks", bloom:"create",
+        desc:"AI generates multiple versions of lesson for different readiness levels. Pre-service teachers adapt for English learners, gifted, struggling readers.",
+        tags:["differentiation","K-12","education","lesson planning"] },
+      { title:"Classroom Management Scenario Practice",
+        time:"ongoing", bloom:"apply",
+        desc:"ChatGPT simulates challenging student behaviors. Pre-service teachers practice de-escalation, restorative practices, positive behavior support strategies.",
+        tags:["classroom management","K-12","education","simulation"] },
+      { title:"IEP Goal Writing Workshop",
+        time:"1 week", bloom:"create",
+        desc:"AI drafts IEP goals based on student profile. Students revise for SMART criteria, legal compliance, family-friendly language. Prepare for special education.",
+        tags:["IEP","special education","K-12","education"] },
+      { title:"Parent Communication Templates",
+        time:"ongoing", bloom:"create",
+        desc:"Draft emails to parents about student progress, behavior concerns, positive news. AI suggests tone adjustments. Practice professional, empathetic communication.",
+        tags:["parent communication","K-12","education","professional skills"] },
+      { title:"Universal Design for Learning Retrofit",
+        time:"1-2 weeks", bloom:"apply",
+        desc:"Take traditional lesson plan. Use UDL principles and AI to add multiple means of representation, expression, engagement. Make learning accessible to all.",
+        tags:["UDL","accessibility","K-12","education"] }
+    ]
+  },
+
+  /* ARTS - CREATIVE PRACTICE & CRITIQUE */
+  { id:"arts_creative_critique",
+    when:{ focus:["teaching","both"], discipline:["arts"], task:["creative","assessment","materials"] },
+    priority:10,
+    tools:["midjourney","runway","claude","elevenlabs"],
+    activities:[
+      { title:"AI-Generated Art Critique Workshop",
+        time:"1 week", bloom:"evaluate",
+        desc:"Generate images with Midjourney. Students analyze aesthetic choices, compositional decisions, what makes it read as 'AI art'. Develop critical eye.",
+        tags:["art critique","GenAI","aesthetics","arts"] },
+      { title:"Video Art Conceptual Development",
+        time:"4-6 weeks", bloom:"create",
+        desc:"Use Runway for B-roll, transitions, effects in experimental video. Focus on conceptual intent, not technical polish. AI as creative collaborator.",
+        tags:["video art","creative","GenAI","arts"] },
+      { title:"Sound Design for Performance",
+        time:"2-3 weeks", bloom:"create",
+        desc:"Generate ambient soundscapes with AI for theater/dance performance. Students edit, layer, mix for emotional impact. Understand sound as narrative element.",
+        tags:["sound design","performance","arts","creative"] },
+      { title:"Artist Statement Drafting",
+        time:"ongoing", bloom:"create",
+        desc:"Claude helps structure artist statements. Students ensure authentic voice describing creative process, influences, intentions. Practice articulating practice.",
+        tags:["artist statement","writing","arts","professional development"] },
+      { title:"Remix Culture & Copyright",
+        time:"1-2 weeks", bloom:"evaluate",
+        desc:"Create remixed artwork using AI-generated elements. Research copyright, fair use, attribution. Navigate legal/ethical dimensions of appropriation art.",
+        tags:["remix","copyright","arts","ethics"] }
+    ]
+  },
+
+  /* LIBRARY/INFO SCI - INFORMATION LITERACY */
+  { id:"lib_info_literacy",
+    when:{ focus:["teaching","both"], discipline:["library"], task:["assessment","materials","policy"] },
+    priority:10,
+    tools:["perplexity","claude","chatgpt","scite"],
+    activities:[
+      { title:"AI vs Database Search Comparison",
+        time:"1 class session", bloom:"evaluate",
+        desc:"Students search same topic in Perplexity and library databases. Compare results: depth, source quality, citations, comprehensiveness. When to use each?",
+        tags:["information literacy","search","library","comparison"] },
+      { title:"Lateral Reading with AI Assistance",
+        time:"1-2 hours", bloom:"evaluate",
+        desc:"AI helps students quickly verify source credibility by checking citations, author credentials, publication venue. Practice fact-checking workflows.",
+        tags:["fact-checking","information literacy","library","verification"] },
+      { title:"Search Query Optimization Workshop",
+        time:"1 class session", bloom:"apply",
+        desc:"Test different search queries in AI and databases. Analyze how phrasing affects results. Develop query formulation and Boolean logic skills.",
+        tags:["search strategy","information literacy","library","Boolean"] },
+      { title:"Citation Accuracy Verification",
+        time:"ongoing", bloom:"evaluate",
+        desc:"AI generates citations. Students verify format correctness against style guides. Check that cited sources actually support claims. Combat hallucinations.",
+        tags:["citations","information literacy","library","accuracy"] },
+      { title:"Misinformation Detection Protocol",
+        time:"1-2 weeks", bloom:"evaluate",
+        desc:"Students develop checklist for identifying misinformation. Test against AI-generated content, social media, news sources. Build critical evaluation skills.",
+        tags:["misinformation","information literacy","library","media literacy"] }
+    ]
+  }
+
 
 ]; /* end RULES */
 
