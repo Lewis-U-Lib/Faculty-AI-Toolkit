@@ -389,7 +389,7 @@ body::before{
 
   <!-- ══ HEADER ══ -->
   <header class="hdr">
-    <div class="hdr__eyebrow">🎓 Research & Teaching · 24 AI Tools · 56 Rules · 200+ Activities</div>
+    <div class="hdr__eyebrow">🎓 Research & Teaching · 34 AI Tools · 56 Rules · 200+ Activities</div>
     <h1 class="hdr__title">Faculty AI Toolkit</h1>
     <p class="hdr__sub">Tell us about your teaching context — get matched with the right AI tools and assignment ideas for your exact situation.</p>
   </header>
@@ -775,7 +775,34 @@ var TOOLS = {
     bestFor:["litreview","research","materials"] },
   sourcely:   { icon:"🎯", name:"Sourcely",           url:"https://www.sourcely.net/",          badge:"Free+",
     desc:"Context-aware academic search with automated summarization.",
-    bestFor:["litreview","research"] }
+    bestFor:["litreview","research"] },
+  sora:       { icon:"🎬", name:"Sora",               url:"https://openai.com/sora/",           badge:"Paid",
+    desc:"OpenAI's text-to-video model. Hyperreal motion, sound, and cinematic quality. Requires ChatGPT Plus/Pro.",
+    bestFor:["creative","materials","arts","research","simulation"] },
+  lumaai:     { icon:"✨", name:"Luma AI",            url:"https://lumalabs.ai/dream-machine",  badge:"Free+",
+    desc:"Dream Machine generates fast AI video (5-10 sec) from text or images. Great for storyboards and quick animations.",
+    bestFor:["creative","materials","arts","design"] },
+  suno:       { icon:"🎵", name:"Suno",               url:"https://suno.com/",                  badge:"Free+",
+    desc:"AI music and song generation from text prompts. Create original audio for projects, podcasts, presentations.",
+    bestFor:["creative","materials","arts","audio"] },
+  firefly:    { icon:"🔥", name:"Adobe Firefly",      url:"https://firefly.adobe.com/",         badge:"Free+",
+    desc:"Commercial-safe AI image generation integrated with Adobe Creative Cloud. Professional graphics and marketing materials.",
+    bestFor:["materials","design","arts","business"] },
+  stablediff: { icon:"🖼️", name:"Stable Diffusion",   url:"https://stability.ai/",              badge:"Free",
+    desc:"Open-source image generation. Highly customizable for technical users, research on AI art, custom model training.",
+    bestFor:["arts","research","STEM","technical"] },
+  synthesia:  { icon:"👤", name:"Synthesia",          url:"https://www.synthesia.io/",          badge:"Paid",
+    desc:"AI avatar video creation. Generate lecture videos with realistic presenters in 140+ languages. Accessibility-focused.",
+    bestFor:["materials","online","accessibility","training"] },
+  inciteful:  { icon:"🕸️", name:"Inciteful",          url:"https://inciteful.xyz/",             badge:"Free",
+    desc:"Citation network visualization. Discover connected papers, explore research networks, find seminal works.",
+    bestFor:["litreview","research","discovery"] },
+  explainpaper: { icon:"📖", name:"ExplainPaper",      url:"https://www.explainpaper.com/",      badge:"Free",
+    desc:"AI explains complex research papers. Highlight confusing text, get instant explanations. Makes dense papers accessible.",
+    bestFor:["litreview","research","reading"] },
+  petal:      { icon:"🌸", name:"Petal",              url:"https://www.petal.org/",             badge:"Free+",
+    desc:"AI-powered document analysis and research organization. Summarize papers, organize literature, extract insights.",
+    bestFor:["litreview","research","organization"] }
 };
 
 /* ── Rule Database  (SKELETON — ~20 rules now, expandable to 100+) ────
