@@ -372,7 +372,7 @@ body::before{
 /* ── ACTIVITY POPUP BUBBLE ── */
 .act-card{cursor:pointer;position:relative;}
 .act-popup{
-  position:fixed;
+  position:absolute;
   z-index:9000;
   width:min(480px, 92vw);
   background:linear-gradient(145deg,#351522 0%,#2a1019 100%);
@@ -2638,11 +2638,6 @@ function closeActivePopup(){
   }
 }
 
-// Close popup on scroll so it doesn't float away from its card
-window.addEventListener('scroll',function(){
-  if(activePopup) closeActivePopup();
-},true);
-
 function attachActCardListeners(){
   document.querySelectorAll('.act-card[data-act-idx]').forEach(function(card){
     card.addEventListener('click',function(e){
@@ -2666,59 +2661,81 @@ function attachActCardListeners(){
       popup.className='act-popup';
       popup.innerHTML='<button class="act-popup__close" aria-label="Close">✕</button><div class="act-popup__title">Step-by-Step Instructions</div><div class="act-popup__text">'+esc(a.instructions||'Instructions not yet available for this activity.')+'</div>';
 
-      // Append to body so it escapes all overflow containers
+      // Append to body (escapes all overflow:hidden parents)
       document.body.appendChild(popup);
       card.classList.add('act-card--active');
       activePopup=popup;
       activePopupCard=card;
 
-      // Position the fixed popup relative to the card
-      function positionPopup(){
-        var cardRect=card.getBoundingClientRect();
+      // Position using page-absolute coordinates (scroll-safe)
+      requestAnimationFrame(function(){ requestAnimationFrame(function(){
+        var cr=card.getBoundingClientRect();
+        var scrollY=window.pageYOffset||document.documentElement.scrollTop;
+        var scrollX=window.pageXOffset||document.documentElement.scrollLeft;
+
+        // Card position in page coordinates
+        var cardTop=cr.top+scrollY;
+        var cardBottom=cr.bottom+scrollY;
+        var cardLeft=cr.left+scrollX;
+
         var popW=popup.offsetWidth;
         var popH=popup.offsetHeight;
 
-        // Horizontal: align left edge with card, but keep on screen
-        var left=cardRect.left;
-        if(left+popW>window.innerWidth-12) left=window.innerWidth-popW-12;
+        // Horizontal: align with card left, keep on screen
+        var left=cardLeft;
+        var pageW=document.documentElement.clientWidth;
+        if(left+popW>pageW-12) left=pageW-popW-12;
         if(left<12) left=12;
         popup.style.left=left+'px';
 
-        // Vertical: prefer above the card
-        var spaceAbove=cardRect.top;
-        var spaceBelow=window.innerHeight-cardRect.bottom;
+        // Vertical: how much viewport space above/below the card right now
+        var vpAbove=cr.top;
+        var vpBelow=window.innerHeight-cr.bottom;
 
-        if(spaceAbove>=popH+14){
-          // Fits above
-          popup.style.top=(cardRect.top-popH-10)+'px';
+        if(vpAbove>=popH+14){
+          // Place above the card
+          popup.style.top=(cardTop-popH-10)+'px';
           popup.classList.remove('flip');
-          // Position arrow to point at card
-          var arrowLeft=cardRect.left-left+28;
-          popup.style.setProperty('--arrow-left',Math.max(18,Math.min(arrowLeft,popW-18))+'px');
-        } else if(spaceBelow>=popH+14){
-          // Fits below
-          popup.style.top=(cardRect.bottom+10)+'px';
+        } else if(vpBelow>=popH+14){
+          // Place below the card
+          popup.style.top=(cardBottom+10)+'px';
           popup.classList.add('flip');
-          var arrowLeft=cardRect.left-left+28;
-          popup.style.setProperty('--arrow-left',Math.max(18,Math.min(arrowLeft,popW-18))+'px');
         } else {
-          // Neither fits fully — place in whichever has more room and cap height
-          if(spaceAbove>=spaceBelow){
-            popup.style.maxHeight=(spaceAbove-24)+'px';
-            popup.style.top='12px';
-            popup.classList.remove('flip');
-          } else {
-            popup.style.maxHeight=(spaceBelow-24)+'px';
-            popup.style.top=(cardRect.bottom+10)+'px';
-            popup.classList.add('flip');
-          }
-          var arrowLeft=cardRect.left-left+28;
-          popup.style.setProperty('--arrow-left',Math.max(18,Math.min(arrowLeft,popW-18))+'px');
+          // Not enough room either way in viewport — scroll card to middle, then place above
+          var scrollTarget=cardTop-(window.innerHeight/2)+(cr.height/2);
+          window.scrollTo({top:scrollTarget,behavior:'smooth'});
+          // After scroll, place above (there will be room now)
+          setTimeout(function(){
+            var cr2=card.getBoundingClientRect();
+            var scrollY2=window.pageYOffset||document.documentElement.scrollTop;
+            var cardTop2=cr2.top+scrollY2;
+            var cardBottom2=cr2.bottom+scrollY2;
+            var popH2=popup.offsetHeight;
+            if(cr2.top>=popH2+14){
+              popup.style.top=(cardTop2-popH2-10)+'px';
+              popup.classList.remove('flip');
+            } else {
+              popup.style.top=(cardBottom2+10)+'px';
+              popup.classList.add('flip');
+            }
+            // Arrow
+            var arrowLeft2=card.getBoundingClientRect().left+scrollX-parseFloat(popup.style.left)+28;
+            popup.style.setProperty('--arrow-left',Math.max(18,Math.min(arrowLeft2,popW-18))+'px');
+          },400);
         }
-      }
 
-      // Use rAF to let the popup render so we can measure it
-      requestAnimationFrame(function(){ requestAnimationFrame(positionPopup); });
+        // Position arrow to point at card
+        var arrowLeft=cardLeft-left+28;
+        popup.style.setProperty('--arrow-left',Math.max(18,Math.min(arrowLeft,popW-18))+'px');
+
+        // Scroll popup into view if it's off the current viewport
+        var popRect=popup.getBoundingClientRect();
+        if(popRect.top<0){
+          window.scrollBy({top:popRect.top-20,behavior:'smooth'});
+        } else if(popRect.bottom>window.innerHeight){
+          window.scrollBy({top:popRect.bottom-window.innerHeight+20,behavior:'smooth'});
+        }
+      }); });
 
       // Close button
       popup.querySelector('.act-popup__close').addEventListener('click',function(ev){
