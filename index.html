@@ -372,9 +372,9 @@ body::before{
 /* ── ACTIVITY POPUP BUBBLE ── */
 .act-card{cursor:pointer;position:relative;}
 .act-popup{
-  position:absolute;
-  left:0;right:0;bottom:calc(100% + 10px);
-  z-index:100;
+  position:fixed;
+  z-index:9000;
+  width:min(480px, 92vw);
   background:linear-gradient(145deg,#351522 0%,#2a1019 100%);
   border:1.5px solid var(--cyan);
   border-radius:var(--r);
@@ -384,14 +384,19 @@ body::before{
   color:var(--off-white);
   font-size:13.5px;
   line-height:1.65;
-  max-height:60vh;
+  max-height:50vh;
   overflow-y:auto;
 }
 .act-popup::after{
   content:'';position:absolute;
-  left:28px;top:100%;
+  left:var(--arrow-left, 28px);top:100%;
   border:9px solid transparent;
   border-top-color:var(--cyan);
+}
+.act-popup.flip::after{
+  top:auto;bottom:100%;
+  border-top-color:transparent;
+  border-bottom-color:var(--cyan);
 }
 .act-popup__title{
   font-family:var(--font-h);font-size:15px;font-weight:700;
@@ -410,15 +415,6 @@ body::before{
 }
 .act-popup__close:hover{color:var(--white);background:rgba(255,255,255,.1);}
 @keyframes popIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
-/* flip popup below card if near top of viewport */
-.act-popup.flip{
-  bottom:auto;top:calc(100% + 10px);
-}
-.act-popup.flip::after{
-  top:auto;bottom:100%;
-  border-top-color:transparent;
-  border-bottom-color:var(--cyan);
-}
 
 /* ── TOAST ── */
 .toast{
@@ -755,18 +751,15 @@ body::before{
 <!-- ══ CREATIVE COMMONS LICENSE FOOTER ══ -->
 <footer style="position:relative;z-index:1;text-align:center;padding:30px 20px 40px;border-top:1px solid rgba(212,160,77,.15);">
   <div style="max-width:600px;margin:0 auto;">
-    <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:10px;">
-      <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="Creative Commons" style="height:28px;filter:brightness(0) invert(1);opacity:.85;" onerror="this.style.display='none'"/>
-      <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="Attribution" style="height:28px;filter:brightness(0) invert(1);opacity:.85;" onerror="this.style.display='none'"/>
-      <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="NonCommercial" style="height:28px;filter:brightness(0) invert(1);opacity:.85;" onerror="this.style.display='none'"/>
-      <img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="NoDerivatives" style="height:28px;filter:brightness(0) invert(1);opacity:.85;" onerror="this.style.display='none'"/>
-      <!-- Fallback inline CC badges -->
-      <span style="display:inline-flex;gap:4px;font-size:24px;opacity:.85;" aria-hidden="true">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#fff" stroke-width="1.5"><circle cx="12" cy="12" r="10.5"/><text x="12" y="16.5" text-anchor="middle" fill="#fff" stroke="none" font-size="12" font-weight="bold" font-family="serif">CC</text></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#fff" stroke-width="1.5"><circle cx="12" cy="12" r="10.5"/><circle cx="12" cy="8" r="2.5" fill="#fff" stroke="none"/><path d="M7.5 18c0-2.5 2-4.5 4.5-4.5s4.5 2 4.5 4.5" fill="#fff" stroke="none"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#fff" stroke-width="1.5"><circle cx="12" cy="12" r="10.5"/><line x1="7" y1="12" x2="17" y2="12" stroke="#fff" stroke-width="2"/><line x1="12" y1="9" x2="12" y2="15" stroke="#fff" stroke-width="2" transform="rotate(45 12 12)"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#fff" stroke-width="1.5"><circle cx="12" cy="12" r="10.5"/><text x="12" y="16.5" text-anchor="middle" fill="#fff" stroke="none" font-size="14" font-weight="bold" font-family="serif">=</text></svg>
-      </span>
+    <div style="display:flex;align-items:center;justify-content:center;gap:6px;margin-bottom:10px;">
+      <!-- CC icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30"><circle cx="15" cy="15" r="14" fill="none" stroke="#fff" stroke-width="1.5" opacity=".85"/><text x="15" y="20" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold" font-family="sans-serif" opacity=".85">CC</text></svg>
+      <!-- BY icon (person) -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30"><circle cx="15" cy="15" r="14" fill="none" stroke="#fff" stroke-width="1.5" opacity=".85"/><circle cx="15" cy="10" r="3" fill="#fff" opacity=".85"/><path d="M9 24c0-3.3 2.7-6 6-6s6 2.7 6 6" fill="#fff" opacity=".85"/></svg>
+      <!-- NC icon (dollar with slash) -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30"><circle cx="15" cy="15" r="14" fill="none" stroke="#fff" stroke-width="1.5" opacity=".85"/><text x="15" y="20.5" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold" font-family="sans-serif" opacity=".85">$</text><line x1="6" y1="24" x2="24" y2="6" stroke="#fff" stroke-width="1.8" opacity=".85"/></svg>
+      <!-- ND icon (equals sign) -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30"><circle cx="15" cy="15" r="14" fill="none" stroke="#fff" stroke-width="1.5" opacity=".85"/><line x1="9" y1="12.5" x2="21" y2="12.5" stroke="#fff" stroke-width="2.2" opacity=".85"/><line x1="9" y1="17.5" x2="21" y2="17.5" stroke="#fff" stroke-width="2.2" opacity=".85"/></svg>
     </div>
     <p style="font-size:13px;color:#c0a0a8;line-height:1.6;">
       This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" style="color:#d4a04d;text-decoration:underline;text-underline-offset:2px;">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
@@ -2632,14 +2625,23 @@ function render(){
 
 /* ── Activity Popup ────────────────────────────────────────── */
 var activePopup = null;
+var activePopupCard = null;
 
 function closeActivePopup(){
   if(activePopup){
     activePopup.remove();
     activePopup=null;
   }
-  document.querySelectorAll('.act-card.act-card--active').forEach(function(c){c.classList.remove('act-card--active');});
+  if(activePopupCard){
+    activePopupCard.classList.remove('act-card--active');
+    activePopupCard=null;
+  }
 }
+
+// Close popup on scroll so it doesn't float away from its card
+window.addEventListener('scroll',function(){
+  if(activePopup) closeActivePopup();
+},true);
 
 function attachActCardListeners(){
   document.querySelectorAll('.act-card[data-act-idx]').forEach(function(card){
@@ -2663,33 +2665,60 @@ function attachActCardListeners(){
       var popup=document.createElement('div');
       popup.className='act-popup';
       popup.innerHTML='<button class="act-popup__close" aria-label="Close">✕</button><div class="act-popup__title">Step-by-Step Instructions</div><div class="act-popup__text">'+esc(a.instructions||'Instructions not yet available for this activity.')+'</div>';
-      card.style.position='relative';
-      card.appendChild(popup);
+
+      // Append to body so it escapes all overflow containers
+      document.body.appendChild(popup);
       card.classList.add('act-card--active');
       activePopup=popup;
+      activePopupCard=card;
 
-      // Smart positioning: measure both directions and pick the one with more room
-      requestAnimationFrame(function(){
+      // Position the fixed popup relative to the card
+      function positionPopup(){
         var cardRect=card.getBoundingClientRect();
-        var popRect=popup.getBoundingClientRect();
+        var popW=popup.offsetWidth;
+        var popH=popup.offsetHeight;
+
+        // Horizontal: align left edge with card, but keep on screen
+        var left=cardRect.left;
+        if(left+popW>window.innerWidth-12) left=window.innerWidth-popW-12;
+        if(left<12) left=12;
+        popup.style.left=left+'px';
+
+        // Vertical: prefer above the card
         var spaceAbove=cardRect.top;
         var spaceBelow=window.innerHeight-cardRect.bottom;
 
-        // Default is above. Flip below only if not enough space above AND more space below.
-        if(spaceAbove<popRect.height+20 && spaceBelow>spaceAbove){
+        if(spaceAbove>=popH+14){
+          // Fits above
+          popup.style.top=(cardRect.top-popH-10)+'px';
+          popup.classList.remove('flip');
+          // Position arrow to point at card
+          var arrowLeft=cardRect.left-left+28;
+          popup.style.setProperty('--arrow-left',Math.max(18,Math.min(arrowLeft,popW-18))+'px');
+        } else if(spaceBelow>=popH+14){
+          // Fits below
+          popup.style.top=(cardRect.bottom+10)+'px';
           popup.classList.add('flip');
-        }
-
-        // After positioning, if popup still goes off-screen, scroll it into view
-        requestAnimationFrame(function(){
-          var finalRect=popup.getBoundingClientRect();
-          if(finalRect.top<0){
-            window.scrollBy({top:finalRect.top-20,behavior:'smooth'});
-          } else if(finalRect.bottom>window.innerHeight){
-            window.scrollBy({top:finalRect.bottom-window.innerHeight+20,behavior:'smooth'});
+          var arrowLeft=cardRect.left-left+28;
+          popup.style.setProperty('--arrow-left',Math.max(18,Math.min(arrowLeft,popW-18))+'px');
+        } else {
+          // Neither fits fully — place in whichever has more room and cap height
+          if(spaceAbove>=spaceBelow){
+            popup.style.maxHeight=(spaceAbove-24)+'px';
+            popup.style.top='12px';
+            popup.classList.remove('flip');
+          } else {
+            popup.style.maxHeight=(spaceBelow-24)+'px';
+            popup.style.top=(cardRect.bottom+10)+'px';
+            popup.classList.add('flip');
           }
-        });
-      });
+          var arrowLeft=cardRect.left-left+28;
+          popup.style.setProperty('--arrow-left',Math.max(18,Math.min(arrowLeft,popW-18))+'px');
+        }
+      }
+
+      // Use rAF to let the popup render so we can measure it
+      requestAnimationFrame(function(){ requestAnimationFrame(positionPopup); });
 
       // Close button
       popup.querySelector('.act-popup__close').addEventListener('click',function(ev){
@@ -2702,7 +2731,7 @@ function attachActCardListeners(){
 
 // Close popup on outside click
 document.addEventListener('click',function(e){
-  if(activePopup && !e.target.closest('.act-card--active')){
+  if(activePopup && !e.target.closest('.act-card--active') && !e.target.closest('.act-popup')){
     closeActivePopup();
   }
 });
