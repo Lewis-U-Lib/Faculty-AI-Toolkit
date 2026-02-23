@@ -2549,7 +2549,6 @@ function render(){
   var selCount = [S.focus,S.depth,S.audience,S.discipline,S.task].filter(Boolean).length;
   if(selCount<2){
     document.getElementById("actBar").style.display="none";
-    document.getElementById("emptyState").style.display="";
     document.getElementById("resStat").textContent="Choose your context above to generate suggestions";
     document.getElementById("resBd").innerHTML='<div class="empty" id="emptyState"><div class="empty__ico">🗺️</div><div class="empty__msg">Your personalized AI toolkit will appear here</div><div class="empty__hint">Select at least two panels above — the more you choose, the more precise the match</div></div>';
     return;
@@ -2706,6 +2705,7 @@ function attachActCardListeners(){
           window.scrollTo({top:scrollTarget,behavior:'smooth'});
           // After scroll, place above (there will be room now)
           setTimeout(function(){
+            if(!activePopup) return; // popup was closed during scroll
             var cr2=card.getBoundingClientRect();
             var scrollY2=window.pageYOffset||document.documentElement.scrollTop;
             var cardTop2=cr2.top+scrollY2;
